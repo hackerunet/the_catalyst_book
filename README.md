@@ -72,6 +72,14 @@ producción quedan en reserva. El libro los explica en detalle (Cap. 14–15); e
 Lo que sí está acá es todo lo demás: el método, el motor honesto, y las decenas de hipótesis que
 la máquina desenmascaró.
 
+## Autor
+
+**Luis Martín Parada Rodríguez**
+
+- 🎵 **TikTok** — [@hackerunet](https://www.tiktok.com/@hackerunet)
+- 📸 **Instagram** — [@hackerunet](https://www.instagram.com/hackerunet)
+- ✉️ **Email** — [hackerunet@gmail.com](mailto:hackerunet@gmail.com)
+
 ---
 
 <p align="center"><em>Probamos. No aseveramos.</em></p>
