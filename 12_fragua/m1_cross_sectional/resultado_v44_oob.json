@@ -1,0 +1,44 @@
+{
+  "tag": "v44_oob",
+  "symbols": [
+    "BTCUSDT",
+    "DOGEUSDT",
+    "AVAXUSDT",
+    "DOTUSDT",
+    "LTCUSDT",
+    "ATOMUSDT"
+  ],
+  "lookback_h": 480,
+  "k": 2,
+  "gross": 1.0,
+  "rebal_every_h": 24,
+  "warmup": 480,
+  "n_null": 200,
+  "seed": 42,
+  "min_offset_rebalanceos": 20,
+  "funding_on": {
+    "pnl_pct": -27.418727903933902,
+    "cagr_pct": -10.138295905523865,
+    "sharpe": -0.29350164471296836,
+    "max_dd_pct": 45.40996643289097,
+    "profit_factor": 0.990522793258478,
+    "turnover_medio": 0.3447182932317518,
+    "net_expo_medio_abs": 0.0057632722862786265,
+    "quebro": false
+  },
+  "funding_off": {
+    "pnl_pct": 0.21133158007149433,
+    "cagr_pct": 0.07044520858463521,
+    "sharpe": 0.12978825091811363,
+    "max_dd_pct": 35.07135668379637,
+    "profit_factor": 1.0042200632911515,
+    "turnover_medio": 0.3447182932317518,
+    "net_expo_medio_abs": 0.0057632722862786265,
+    "quebro": false
+  },
+  "null_mediana_pct_on": -47.734292020240375,
+  "null_p10_pct_on": -68.35986845777857,
+  "null_p90_pct_on": -16.021260176878638,
+  "percentil_vs_null_on": 81.5,
+  "pasa_criterio": "False"
+}

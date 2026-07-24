@@ -1,0 +1,39 @@
+==============================================================================
+D1/D2 — ECONOFÍSICA EN NUESTROS DATOS (info-only) — pre-registro el libro V60-V67
+==============================================================================
+
+### Timeframe 15m (wf_cache_15m_140160_2026-06-11_top4.pkl)
+  ETHUSDT    alpha=3.70 (n_cola=4201)     curtosis_exceso=50.6  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  SOLUSDT    alpha=3.69 (n_cola=4166)     curtosis_exceso=76.4  clustering_vol=SÍ  sin_autocorr_lineal=NO
+  BNBUSDT    alpha=3.66 (n_cola=5573)     curtosis_exceso=68.6  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  XRPUSDT    alpha=3.74 (n_cola=1367)     curtosis_exceso=190.3  clustering_vol=SÍ  sin_autocorr_lineal=NO
+  POOL       alpha=3.82 (n_cola=5549, xmin=0.0150, KS=0.009)  curtosis=121.9
+
+### Timeframe 1h (wf_cache_1h_26280_2026-06-11.pkl)
+  ETHUSDT    alpha=4.27 (n_cola=395)      curtosis_exceso=17.4  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  SOLUSDT    alpha=3.75 (n_cola=1833)     curtosis_exceso=9.9  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  BNBUSDT    alpha=4.09 (n_cola=524)      curtosis_exceso=14.9  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  XRPUSDT    alpha=3.60 (n_cola=781)      curtosis_exceso=53.9  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  ADAUSDT    alpha=4.12 (n_cola=517)      curtosis_exceso=55.9  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  LINKUSDT   alpha=3.86 (n_cola=1569)     curtosis_exceso=12.8  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  POOL       alpha=4.14 (n_cola=2350, xmin=0.0264, KS=0.023)  curtosis=34.2
+
+### Timeframe 4h (wf_cache_4h_8760_2026-06-11.pkl)
+  ETHUSDT    alpha=3.54 (n_cola=832)      curtosis_exceso=9.2  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  SOLUSDT    alpha=4.28 (n_cola=350)      curtosis_exceso=15.0  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  BNBUSDT    alpha=4.26 (n_cola=263)      curtosis_exceso=10.3  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  XRPUSDT    alpha=3.75 (n_cola=392)      curtosis_exceso=29.3  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  ADAUSDT    alpha=3.91 (n_cola=564)      curtosis_exceso=16.8  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  LINKUSDT   alpha=4.21 (n_cola=393)      curtosis_exceso=8.1  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  POOL       alpha=4.18 (n_cola=1309, xmin=0.0441, KS=0.019)  curtosis=17.3
+
+### Timeframe 1d (wf_cache_crypto_1d.pkl)
+  BTCUSDT    alpha=5.40 (n_cola=92)       curtosis_exceso=12.4  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  ETHUSDT    alpha=3.72 (n_cola=364)      curtosis_exceso=10.6  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  SOLUSDT    alpha=4.08 (n_cola=149)      curtosis_exceso=7.6  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  BNBUSDT    alpha=3.59 (n_cola=238)      curtosis_exceso=20.2  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  XRPUSDT    alpha=3.35 (n_cola=174)      curtosis_exceso=20.7  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  ADAUSDT    alpha=3.80 (n_cola=238)      curtosis_exceso=27.6  clustering_vol=SÍ  sin_autocorr_lineal=SÍ
+  POOL       alpha=4.01 (n_cola=465, xmin=0.1302, KS=0.021)  curtosis=20.6
+
+Lectura de referencia: equities alpha≈3 (ley cúbica inversa); gaussiana: curtosis_exceso=0, sin clustering.

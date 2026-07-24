@@ -1,0 +1,282 @@
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica SOLUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ADAUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica LINKUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ⚠️ ALERTA DE TELEMETRÍA: Historial vacío. No hay trades para procesar.
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica SOLUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ADAUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica LINKUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ⚠️ ALERTA DE TELEMETRÍA: Historial vacío. No hay trades para procesar.
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica SOLUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ADAUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica LINKUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ⚠️ ALERTA DE TELEMETRÍA: Historial vacío. No hay trades para procesar.
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica SOLUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ADAUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica LINKUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ⚠️ ALERTA DE TELEMETRÍA: Historial vacío. No hay trades para procesar.
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica SOLUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ADAUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica LINKUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ⚠️ ALERTA DE TELEMETRÍA: Historial vacío. No hay trades para procesar.
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica SOLUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ADAUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica LINKUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ⚠️ ALERTA DE TELEMETRÍA: Historial vacío. No hay trades para procesar.
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica SOLUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ADAUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica LINKUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ⚠️ ALERTA DE TELEMETRÍA: Historial vacío. No hay trades para procesar.
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica SOLUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ADAUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica LINKUSDT: name 'tp_1r' is not defined
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ⚠️ ALERTA DE TELEMETRÍA: Historial vacío. No hay trades para procesar.
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...

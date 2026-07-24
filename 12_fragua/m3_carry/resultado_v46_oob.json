@@ -1,0 +1,89 @@
+{
+  "tag": "v46_oob",
+  "symbols": [
+    "BTCUSDT",
+    "DOGEUSDT",
+    "AVAXUSDT",
+    "DOTUSDT",
+    "LTCUSDT",
+    "ATOMUSDT"
+  ],
+  "k": 2,
+  "gross": 1.0,
+  "rebal_every_h": 24,
+  "warmup": 1,
+  "n_null": 200,
+  "seed": 42,
+  "min_offset_rebalanceos": 20,
+  "meta_funding": {
+    "colisiones_hora": 0,
+    "eventos_promedio_por_simbolo": 3285,
+    "por_simbolo": {
+      "BTCUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": 8.66e-05
+      },
+      "DOGEUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": 3.98e-06
+      },
+      "AVAXUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": -0.00044183
+      },
+      "DOTUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": -0.00048631
+      },
+      "LTCUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": 2.816e-05
+      },
+      "ATOMUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": -0.0005859
+      }
+    }
+  },
+  "funding_on": {
+    "pnl_pct": -54.776664878016625,
+    "cagr_pct": -23.25717119210192,
+    "sharpe": -1.007463963875598,
+    "max_dd_pct": 58.5196469452908,
+    "profit_factor": 0.9680014939972599,
+    "turnover_medio": 0.9139765306076867,
+    "net_expo_medio_abs": 0.005367198690613943,
+    "quebro": false
+  },
+  "funding_off": {
+    "pnl_pct": -60.12476919157941,
+    "cagr_pct": -26.412366279809373,
+    "sharpe": -1.1858459368604621,
+    "max_dd_pct": 62.49754851826938,
+    "profit_factor": 0.9624420030260741,
+    "turnover_medio": 0.9139765306076867,
+    "net_expo_medio_abs": 0.005367198690613943,
+    "quebro": false
+  },
+  "null_mediana_pct_on": -73.85773792512322,
+  "percentil_vs_null_on": 93.0,
+  "pasa_criterio": "False"
+}

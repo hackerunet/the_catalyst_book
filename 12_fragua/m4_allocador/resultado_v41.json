@@ -1,0 +1,84 @@
+{
+  "pre_registro": {
+    "w_alta_v26": 0.3,
+    "w_alta_v36": 0.7,
+    "w_baja_v26": 0.7,
+    "w_baja_v36": 0.3,
+    "vol_window": 90,
+    "split_date": "2024-06-12"
+  },
+  "baseline_50_50": {
+    "nombre": "baseline_50_50",
+    "ventana": "2022-06-12 \u2192 2026-06-11",
+    "n_dias": 1461,
+    "pnl_pct": 122.5,
+    "cagr_pct": 22.15,
+    "dd_90d_pct": 14.2,
+    "dd_global_pct": 16.3,
+    "rolling_365d": {
+      "n_ventanas": 1096,
+      "mediana": 32.22,
+      "p10": -3.18,
+      "minimo": -12.22,
+      "maximo": 70.88,
+      "pct_ventanas_positivas": 87.6,
+      "pct_ventanas_sobre_12": 81.1,
+      "pct_ventanas_sobre_25": 64.2
+    }
+  },
+  "baseline_reproducido_ok": false,
+  "v41_dinamico_completo": {
+    "nombre": "v41_dinamico_completo",
+    "ventana": "2022-06-12 \u2192 2026-06-11",
+    "n_dias": 1461,
+    "pnl_pct": 104.75,
+    "cagr_pct": 19.64,
+    "dd_90d_pct": 14.6,
+    "dd_global_pct": 18.2,
+    "rolling_365d": {
+      "n_ventanas": 1096,
+      "mediana": 26.88,
+      "p10": -0.12,
+      "minimo": -7.79,
+      "maximo": 61.62,
+      "pct_ventanas_positivas": 89.8,
+      "pct_ventanas_sobre_12": 77.9,
+      "pct_ventanas_sobre_25": 54.5
+    }
+  },
+  "pasa_criterio_completo": false,
+  "distribucion_regimen": {
+    "n_alta_vol": 956,
+    "n_baja_vol": 505,
+    "n_warmup": 0,
+    "pct_alta_vol": 65.4
+  },
+  "diagnostico_mecanismo": {
+    "ALTA_VOL": {
+      "n_dias": 956,
+      "ret_anual_v26_pct": 16.59,
+      "ret_anual_v36_pct": 8.54,
+      "diferencia_v36_minus_v26_pct": -8.06,
+      "a\u00f1os_involucrados": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    "BAJA_VOL": {
+      "n_dias": 505,
+      "ret_anual_v26_pct": 16.79,
+      "ret_anual_v36_pct": 23.92,
+      "diferencia_v36_minus_v26_pct": 7.13,
+      "a\u00f1os_involucrados": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    }
+  }
+}

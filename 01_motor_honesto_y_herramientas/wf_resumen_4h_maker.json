@@ -1,0 +1,136 @@
+{
+ "ventanas": 11,
+ "pnl_total_pct_sum": -49.39,
+ "pnl_mediana_pct": -4.42,
+ "ventanas_positivas": "0/11",
+ "ventanas_sobre_buyhold": "5/11",
+ "percentil_vs_null_mediano": null,
+ "config": {
+  "interval": "4h",
+  "fee": 0.0002,
+  "slippage": 0.0002,
+  "window": 750,
+  "years": 4.0,
+  "mc": 0,
+  "seed": 42,
+  "end": "2026-06-11 00:00",
+  "risk_per_trade": 0.0033333333333333335,
+  "sl_fraction": 0.75,
+  "pullback_arm": 20,
+  "reversal_vol_floor": 0.5,
+  "body_min_atr": 0.5,
+  "wick_range_min_atr": 0.75
+ },
+ "ventanas_detalle": [
+  {
+   "ventana": 1,
+   "inicio": "2022-10-10 04:00:00",
+   "fin": "2023-01-08 00:00:00",
+   "trades": 89,
+   "wr": 56.18,
+   "pf": 0.943,
+   "pnl_pct": -0.56,
+   "bh_pct": -26.91
+  },
+  {
+   "ventana": 2,
+   "inicio": "2023-02-12 04:00:00",
+   "fin": "2023-05-13 00:00:00",
+   "trades": 106,
+   "wr": 45.28,
+   "pf": 0.411,
+   "pnl_pct": -8.79,
+   "bh_pct": 4.59
+  },
+  {
+   "ventana": 3,
+   "inicio": "2023-06-17 04:00:00",
+   "fin": "2023-09-15 00:00:00",
+   "trades": 79,
+   "wr": 41.77,
+   "pf": 0.476,
+   "pnl_pct": -5.98,
+   "bh_pct": 2.37
+  },
+  {
+   "ventana": 4,
+   "inicio": "2023-10-20 04:00:00",
+   "fin": "2024-01-18 00:00:00",
+   "trades": 116,
+   "wr": 42.24,
+   "pf": 0.61,
+   "pnl_pct": -6.84,
+   "bh_pct": 102.2
+  },
+  {
+   "ventana": 5,
+   "inicio": "2024-02-22 04:00:00",
+   "fin": "2024-05-22 00:00:00",
+   "trades": 117,
+   "wr": 42.74,
+   "pf": 0.478,
+   "pnl_pct": -9.01,
+   "bh_pct": 21.51
+  },
+  {
+   "ventana": 6,
+   "inicio": "2024-06-26 04:00:00",
+   "fin": "2024-09-24 00:00:00",
+   "trades": 94,
+   "wr": 57.45,
+   "pf": 0.961,
+   "pnl_pct": -0.39,
+   "bh_pct": -2.62
+  },
+  {
+   "ventana": 7,
+   "inicio": "2024-10-29 04:00:00",
+   "fin": "2025-01-27 00:00:00",
+   "trades": 106,
+   "wr": 41.51,
+   "pf": 0.49,
+   "pnl_pct": -7.64,
+   "bh_pct": 134.9
+  },
+  {
+   "ventana": 8,
+   "inicio": "2025-03-03 04:00:00",
+   "fin": "2025-06-01 00:00:00",
+   "trades": 109,
+   "wr": 53.21,
+   "pf": 0.701,
+   "pnl_pct": -4.03,
+   "bh_pct": -10.02
+  },
+  {
+   "ventana": 9,
+   "inicio": "2025-07-06 04:00:00",
+   "fin": "2025-10-04 00:00:00",
+   "trades": 119,
+   "wr": 55.46,
+   "pf": 0.923,
+   "pnl_pct": -1.11,
+   "bh_pct": 60.96
+  },
+  {
+   "ventana": 10,
+   "inicio": "2025-11-08 04:00:00",
+   "fin": "2026-02-06 00:00:00",
+   "trades": 92,
+   "wr": 53.26,
+   "pf": 0.943,
+   "pnl_pct": -0.62,
+   "bh_pct": -47.86
+  },
+  {
+   "ventana": 11,
+   "inicio": "2026-03-13 04:00:00",
+   "fin": "2026-06-11 00:00:00",
+   "trades": 112,
+   "wr": 43.75,
+   "pf": 0.678,
+   "pnl_pct": -4.42,
+   "bh_pct": -22.02
+  }
+ ]
+}

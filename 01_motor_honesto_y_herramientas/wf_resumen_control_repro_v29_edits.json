@@ -1,0 +1,210 @@
+{
+ "ventanas": 17,
+ "pnl_total_pct_sum": -96.69,
+ "pnl_mediana_pct": -5.61,
+ "ventanas_positivas": "1/17",
+ "ventanas_sobre_buyhold": "9/17",
+ "percentil_vs_null_mediano": null,
+ "config": {
+  "symbols": [
+   "ETHUSDT",
+   "SOLUSDT",
+   "BNBUSDT",
+   "XRPUSDT",
+   "ADAUSDT",
+   "LINKUSDT"
+  ],
+  "interval": "1h",
+  "entry_mode": "patrones",
+  "exit_mode": "escalera",
+  "reentry_post_stop": false,
+  "filtro_squeeze": false,
+  "filtro_rs": false,
+  "rs_lookback_days": 20,
+  "fee": 0.0005,
+  "slippage": 0.0005,
+  "window": 1500,
+  "years": 3.0,
+  "mc": 0,
+  "seed": 42,
+  "end": "2026-06-11",
+  "risk_per_trade": 0.0033333333333333335,
+  "sl_fraction": 0.75,
+  "pullback_arm": 20,
+  "reversal_vol_floor": 0.5,
+  "body_min_atr": 0.5,
+  "wick_range_min_atr": 0.75
+ },
+ "ventanas_detalle": [
+  {
+   "ventana": 1,
+   "inicio": "2023-07-23 07:00:00",
+   "fin": "2023-09-15 00:00:00",
+   "trades": 106,
+   "wr": 64.15,
+   "pf": 0.884,
+   "pnl_pct": -1.28,
+   "bh_pct": -21.12
+  },
+  {
+   "ventana": 2,
+   "inicio": "2023-09-23 19:00:00",
+   "fin": "2023-11-16 12:00:00",
+   "trades": 149,
+   "wr": 52.35,
+   "pf": 0.676,
+   "pnl_pct": -4.96,
+   "bh_pct": 77.4
+  },
+  {
+   "ventana": 3,
+   "inicio": "2023-11-25 07:00:00",
+   "fin": "2024-01-18 00:00:00",
+   "trades": 142,
+   "wr": 50.0,
+   "pf": 0.366,
+   "pnl_pct": -11.18,
+   "bh_pct": 25.88
+  },
+  {
+   "ventana": 4,
+   "inicio": "2024-01-26 19:00:00",
+   "fin": "2024-03-20 12:00:00",
+   "trades": 174,
+   "wr": 50.0,
+   "pf": 0.507,
+   "pnl_pct": -9.12,
+   "bh_pct": 46.36
+  },
+  {
+   "ventana": 5,
+   "inicio": "2024-03-29 07:00:00",
+   "fin": "2024-05-22 00:00:00",
+   "trades": 115,
+   "wr": 62.61,
+   "pf": 0.733,
+   "pnl_pct": -3.02,
+   "bh_pct": -6.66
+  },
+  {
+   "ventana": 6,
+   "inicio": "2024-05-30 19:00:00",
+   "fin": "2024-07-23 12:00:00",
+   "trades": 136,
+   "wr": 58.82,
+   "pf": 0.803,
+   "pnl_pct": -2.65,
+   "bh_pct": -3.49
+  },
+  {
+   "ventana": 7,
+   "inicio": "2024-08-01 07:00:00",
+   "fin": "2024-09-24 00:00:00",
+   "trades": 133,
+   "wr": 60.9,
+   "pf": 0.589,
+   "pnl_pct": -5.61,
+   "bh_pct": -8.0
+  },
+  {
+   "ventana": 8,
+   "inicio": "2024-10-02 19:00:00",
+   "fin": "2024-11-25 12:00:00",
+   "trades": 189,
+   "wr": 54.5,
+   "pf": 0.637,
+   "pnl_pct": -6.67,
+   "bh_pct": 97.88
+  },
+  {
+   "ventana": 9,
+   "inicio": "2024-12-04 07:00:00",
+   "fin": "2025-01-27 00:00:00",
+   "trades": 133,
+   "wr": 60.15,
+   "pf": 0.757,
+   "pnl_pct": -3.2,
+   "bh_pct": -6.12
+  },
+  {
+   "ventana": 10,
+   "inicio": "2025-02-04 19:00:00",
+   "fin": "2025-03-30 12:00:00",
+   "trades": 145,
+   "wr": 51.72,
+   "pf": 0.567,
+   "pnl_pct": -6.81,
+   "bh_pct": -21.37
+  },
+  {
+   "ventana": 11,
+   "inicio": "2025-04-08 07:00:00",
+   "fin": "2025-06-01 00:00:00",
+   "trades": 145,
+   "wr": 52.41,
+   "pf": 0.389,
+   "pnl_pct": -9.7,
+   "bh_pct": 29.12
+  },
+  {
+   "ventana": 12,
+   "inicio": "2025-06-09 19:00:00",
+   "fin": "2025-08-02 12:00:00",
+   "trades": 179,
+   "wr": 56.42,
+   "pf": 0.534,
+   "pnl_pct": -8.73,
+   "bh_pct": 17.21
+  },
+  {
+   "ventana": 13,
+   "inicio": "2025-08-11 07:00:00",
+   "fin": "2025-10-04 00:00:00",
+   "trades": 142,
+   "wr": 57.04,
+   "pf": 0.574,
+   "pnl_pct": -5.93,
+   "bh_pct": 13.31
+  },
+  {
+   "ventana": 14,
+   "inicio": "2025-10-12 19:00:00",
+   "fin": "2025-12-05 12:00:00",
+   "trades": 129,
+   "wr": 59.69,
+   "pf": 0.714,
+   "pnl_pct": -3.77,
+   "bh_pct": -28.42
+  },
+  {
+   "ventana": 15,
+   "inicio": "2025-12-14 07:00:00",
+   "fin": "2026-02-06 00:00:00",
+   "trades": 154,
+   "wr": 61.69,
+   "pf": 1.189,
+   "pnl_pct": 2.07,
+   "bh_pct": -39.5
+  },
+  {
+   "ventana": 16,
+   "inicio": "2026-02-14 19:00:00",
+   "fin": "2026-04-09 12:00:00",
+   "trades": 122,
+   "wr": 47.54,
+   "pf": 0.285,
+   "pnl_pct": -12.66,
+   "bh_pct": -6.31
+  },
+  {
+   "ventana": 17,
+   "inicio": "2026-04-18 07:00:00",
+   "fin": "2026-06-11 00:00:00",
+   "trades": 154,
+   "wr": 52.6,
+   "pf": 0.766,
+   "pnl_pct": -3.47,
+   "bh_pct": -25.39
+  }
+ ]
+}

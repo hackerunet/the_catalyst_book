@@ -1,0 +1,83 @@
+{
+ "modo": "continuo",
+ "pnl_pct": 52.25,
+ "pnl_usd": 261.24,
+ "trades": 335,
+ "wr": 22.09,
+ "pf": 1.624,
+ "bh_pct": 92.34,
+ "max_drawdown_pct": 10.1,
+ "percentil_vs_null": 86.0,
+ "null_mediana_pct": 20.44,
+ "por_motivo_salida": {
+  "FIN DE VENTANA (administrativo)": {
+   "trades": 4,
+   "win_rate": 100.0,
+   "pnl": 78.44
+  },
+  "FLIP DE TENDENCIA (alineación opuesta)": {
+   "trades": 184,
+   "win_rate": 38.0,
+   "pnl": 494.56
+  },
+  "STOP DE PROTECCIÓN": {
+   "trades": 147,
+   "win_rate": 0.0,
+   "pnl": -311.76
+  }
+ },
+ "por_simbolo": {
+  "ADAUSDT": {
+   "trades": 57,
+   "win_rate": 22.8,
+   "pnl": 10.04
+  },
+  "BNBUSDT": {
+   "trades": 53,
+   "win_rate": 24.5,
+   "pnl": 20.32
+  },
+  "ETHUSDT": {
+   "trades": 63,
+   "win_rate": 22.2,
+   "pnl": -7.3
+  },
+  "LINKUSDT": {
+   "trades": 64,
+   "win_rate": 20.3,
+   "pnl": 31.84
+  },
+  "SOLUSDT": {
+   "trades": 46,
+   "win_rate": 23.9,
+   "pnl": 53.06
+  },
+  "XRPUSDT": {
+   "trades": 52,
+   "win_rate": 19.2,
+   "pnl": 153.28
+  }
+ },
+ "config": {
+  "symbols": [
+   "ETHUSDT",
+   "SOLUSDT",
+   "BNBUSDT",
+   "XRPUSDT",
+   "ADAUSDT",
+   "LINKUSDT"
+  ],
+  "interval": "1h",
+  "entry_mode": "swing_rejection",
+  "exit_mode": "tendencia",
+  "trailing_stop_tendencia": false,
+  "trailing_arm_r": 2.0,
+  "trailing_distance_r": 1.0,
+  "fee": 0.0002,
+  "slippage": 0.0002,
+  "years": 3.0,
+  "end": "2026-06-11",
+  "mc": 50,
+  "seed": 42
+ }
+}

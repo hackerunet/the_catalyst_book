@@ -1,0 +1,100 @@
+{
+ "ventanas": 5,
+ "pnl_total_pct_sum": -7.13,
+ "pnl_mediana_pct": -1.55,
+ "ventanas_positivas": "2/5",
+ "ventanas_sobre_buyhold": "1/5",
+ "percentil_vs_null_mediano": 0.0,
+ "config": {
+  "symbols": [
+   "ETHUSDT",
+   "SOLUSDT",
+   "BNBUSDT",
+   "XRPUSDT",
+   "ADAUSDT",
+   "LINKUSDT"
+  ],
+  "interval": "1h",
+  "entry_mode": "patrones",
+  "exit_mode": "copilot",
+  "auto_cierre_reversa": false,
+  "progreso_min_cierre_reversa": 40,
+  "prob_reversion_min_cierre": 50,
+  "fee": 0.0005,
+  "slippage": 0.0005,
+  "window": 600,
+  "years": 0.35,
+  "mc": 5,
+  "seed": 42,
+  "end": "2026-06-09",
+  "risk_per_trade": 0.0033333333333333335,
+  "sl_fraction": 0.75
+ },
+ "ventanas_detalle": [
+  {
+   "ventana": 1,
+   "inicio": "2026-02-12 19:00:00",
+   "fin": "2026-03-01 00:00:00",
+   "trades": 17,
+   "wr": 0.0,
+   "pf": 0.0,
+   "pnl_pct": -5.55,
+   "bh_pct": 4.52,
+   "null_mediana_pct": 0.09,
+   "null_p95_pct": 0.92,
+   "percentil_vs_null": 0.0
+  },
+  {
+   "ventana": 2,
+   "inicio": "2026-03-09 19:00:00",
+   "fin": "2026-03-26 00:00:00",
+   "trades": 9,
+   "wr": 0.0,
+   "pf": 0.0,
+   "pnl_pct": -2.17,
+   "bh_pct": 4.25,
+   "null_mediana_pct": 0.61,
+   "null_p95_pct": 0.66,
+   "percentil_vs_null": 0.0
+  },
+  {
+   "ventana": 3,
+   "inicio": "2026-04-03 19:00:00",
+   "fin": "2026-04-20 00:00:00",
+   "trades": 10,
+   "wr": 60.0,
+   "pf": 1.724,
+   "pnl_pct": 1.06,
+   "bh_pct": 5.26,
+   "null_mediana_pct": -0.5,
+   "null_p95_pct": 2.63,
+   "percentil_vs_null": 80.0
+  },
+  {
+   "ventana": 4,
+   "inicio": "2026-04-28 19:00:00",
+   "fin": "2026-05-15 00:00:00",
+   "trades": 13,
+   "wr": 30.77,
+   "pf": 0.486,
+   "pnl_pct": -1.55,
+   "bh_pct": 8.48,
+   "null_mediana_pct": 1.46,
+   "null_p95_pct": 2.22,
+   "percentil_vs_null": 0.0
+  },
+  {
+   "ventana": 5,
+   "inicio": "2026-05-23 19:00:00",
+   "fin": "2026-06-09 00:00:00",
+   "trades": 22,
+   "wr": 45.45,
+   "pf": 1.333,
+   "pnl_pct": 1.08,
+   "bh_pct": -19.08,
+   "null_mediana_pct": -0.87,
+   "null_p95_pct": 1.46,
+   "percentil_vs_null": 80.0
+  }
+ ]
+}

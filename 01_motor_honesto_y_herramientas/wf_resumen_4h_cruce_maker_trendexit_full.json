@@ -1,0 +1,44 @@
+{
+ "ventanas": 1,
+ "pnl_total_pct_sum": 147.36,
+ "pnl_mediana_pct": 147.36,
+ "ventanas_positivas": "1/1",
+ "ventanas_sobre_buyhold": "1/1",
+ "percentil_vs_null_mediano": 100.0,
+ "config": {
+  "interval": "4h",
+  "entry_mode": "cruce",
+  "exit_mode": "tendencia",
+  "filtro_squeeze": false,
+  "filtro_rs": false,
+  "rs_lookback_days": 20,
+  "fee": 0.0002,
+  "slippage": 0.0002,
+  "window": 8250,
+  "years": 4.0,
+  "mc": 100,
+  "seed": 42,
+  "end": "2026-06-11 00:00",
+  "risk_per_trade": 0.0033333333333333335,
+  "sl_fraction": 0.75,
+  "pullback_arm": 20,
+  "reversal_vol_floor": 0.5,
+  "body_min_atr": 0.5,
+  "wick_range_min_atr": 0.75
+ },
+ "ventanas_detalle": [
+  {
+   "ventana": 1,
+   "inicio": "2022-10-10 04:00:00",
+   "fin": "2026-06-11 00:00:00",
+   "trades": 396,
+   "wr": 18.18,
+   "pf": 2.026,
+   "pnl_pct": 147.36,
+   "bh_pct": 49.42,
+   "null_mediana_pct": 36.89,
+   "null_p95_pct": 83.37,
+   "percentil_vs_null": 100.0
+  }
+ ]
+}

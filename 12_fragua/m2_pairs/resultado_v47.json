@@ -1,0 +1,57 @@
+{
+  "version": "V47",
+  "motor": "M2",
+  "timeframe": "4h",
+  "ventana": 180,
+  "z_entry": 2.0,
+  "z_exit": 0.5,
+  "z_stop": 4.0,
+  "n_null": 200,
+  "pares_is": [
+    {
+      "par": "ETH-BNB",
+      "pnl_pct": 4.02,
+      "pnl_nofund": 5.54,
+      "pf": 1.089,
+      "max_dd": 10.3,
+      "n_trades": 25,
+      "n_stops": 4,
+      "n_coint_exits": 13,
+      "pctl_vs_null": 95.5,
+      "pct_cointegrado": 10.3
+    },
+    {
+      "par": "SOL-ETH",
+      "pnl_pct": -9.4,
+      "pnl_nofund": -8.63,
+      "pf": 0.754,
+      "max_dd": 14.0,
+      "n_trades": 17,
+      "n_stops": 0,
+      "n_coint_exits": 13,
+      "pctl_vs_null": 8.5,
+      "pct_cointegrado": 8.1
+    },
+    {
+      "par": "BNB-XRP",
+      "pnl_pct": -20.92,
+      "pnl_nofund": -20.48,
+      "pf": 0.364,
+      "max_dd": 25.4,
+      "n_trades": 13,
+      "n_stops": 0,
+      "n_coint_exits": 10,
+      "pctl_vs_null": 0.5,
+      "pct_cointegrado": 9.0
+    }
+  ],
+  "pares_oob": [],
+  "pnl_total_is": -26.3,
+  "pf_avg_is": 0.736,
+  "pctl_avg_is": 34.8,
+  "criterio_1_pnl": false,
+  "criterio_2_pf": false,
+  "criterio_3_pctl": false,
+  "criterio_5_oob": false,
+  "veredicto": "RECHAZADO"
+}

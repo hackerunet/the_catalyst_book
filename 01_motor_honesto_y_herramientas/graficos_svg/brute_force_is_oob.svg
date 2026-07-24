@@ -1,0 +1,62 @@
+<svg viewBox="0 0 720 420" role="img" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;border:1px solid #d9d5c9;border-radius:8px">
+<style>
+.cbg{fill:#FCFBF8} .cgrid{stroke:#E4E1D6;stroke-width:1} .up{fill:#2E7A50;stroke:#2E7A50}
+.dn{fill:#A6392E;stroke:#A6392E} .wu{stroke:#2E7A50;stroke-width:1.4} .wd{stroke:#A6392E;stroke-width:1.4}
+.e1{stroke:#C77D2E;stroke-width:2;fill:none} .e2{stroke:#7C8288;stroke-width:2;fill:none;stroke-dasharray:5 3}
+.bb{stroke:#6E7AD6;stroke-width:1.3;fill:none;stroke-dasharray:3 3} .lvl{stroke:#7C8288;stroke-width:1;stroke-dasharray:4 3}
+.txt{fill:#1B1F23;font-family:ui-monospace,Menlo,monospace} .txf{fill:#7C8288;font-family:ui-monospace,Menlo,monospace}
+.mk-in{fill:#2E7A50} .mk-out{fill:#A6392E} .mkl{fill:#1B1F23;font-family:ui-monospace,Menlo,monospace;font-weight:bold}
+.title{fill:#1B1F23;font-family:ui-monospace,Menlo,monospace;font-weight:bold} .badge-g{fill:#DEEBE2;stroke:#2E7A50}
+.badge-r{fill:#F2DDD9;stroke:#A6392E} .bt-g{fill:#2E7A50} .bt-r{fill:#A6392E}
+@media (prefers-color-scheme:dark){
+ .cbg{fill:#1A1D20} .cgrid{stroke:#2A2D31} .up{fill:#5FB981;stroke:#5FB981} .dn{fill:#E2837A;stroke:#E2837A}
+ .wu{stroke:#5FB981} .wd{stroke:#E2837A} .e1{stroke:#DFA054} .e2{stroke:#9EA2AD} .bb{stroke:#8B95E0}
+ .lvl{stroke:#8B8880} .txt{fill:#E9E6DD} .txf{fill:#8B8880} .mk-in{fill:#5FB981} .mk-out{fill:#E2837A}
+ .mkl{fill:#E9E6DD} .badge-g{fill:#1C2E23;stroke:#5FB981} .badge-r{fill:#35201E;stroke:#E2837A}
+ .bt-g{fill:#5FB981} .bt-r{fill:#E2837A}}
+</style>
+<rect class="cbg" x="0" y="0" width="720" height="420"/>
+<text class="title" x="360.0" y="26" text-anchor="middle" font-size="15">Brute-force: el ganador in-sample NO es el ganador fuera de muestra</text>
+<text class="txf" x="360.0" y="46" text-anchor="middle" font-size="11">top-6 combos (barra clara = in-sample · barra oscura = fuera de canasta OOB) · PnL 4 años</text>
+<line class="cgrid" x1="48" y1="324.0" x2="704" y2="324.0"/>
+<text class="txf" x="8" y="327.0" font-size="9.5">0%</text>
+<line class="cgrid" x1="48" y1="324.0" x2="704" y2="324.0"/>
+<text class="txf" x="8" y="247.6" font-size="9.5">50%</text>
+<line class="cgrid" x1="48" y1="244.6" x2="704" y2="244.6"/>
+<text class="txf" x="8" y="168.2" font-size="9.5">100%</text>
+<line class="cgrid" x1="48" y1="165.2" x2="704" y2="165.2"/>
+<text class="txf" x="8" y="88.9" font-size="9.5">150%</text>
+<line class="cgrid" x1="48" y1="85.9" x2="704" y2="85.9"/>
+<rect class="up" opacity="0.45" x="67.9" y="81.6" width="32.8" height="242.4"/>
+<text class="txf" x="84.3" y="77.6" text-anchor="middle" font-size="9">153</text>
+<rect class="up" x="104.7" y="255.3" width="32.8" height="68.7"/>
+<text class="txt" x="121.1" y="251.3" text-anchor="middle" font-size="9" font-weight="bold">43</text>
+<text class="txf" x="102.7" y="342.0" text-anchor="end" font-size="9.5" transform="rotate(-30 102.7 342.0)">continua|exhaustion</text>
+<rect class="up" opacity="0.45" x="177.2" y="112.5" width="32.8" height="211.5"/>
+<text class="txf" x="193.6" y="108.5" text-anchor="middle" font-size="9">133</text>
+<rect class="up" x="214.0" y="281.1" width="32.8" height="42.9"/>
+<text class="txt" x="230.4" y="277.1" text-anchor="middle" font-size="9" font-weight="bold">27</text>
+<text class="txf" x="212.0" y="342.0" text-anchor="end" font-size="9.5" transform="rotate(-30 212.0 342.0)">cruce|exhaustion</text>
+<rect class="up" opacity="0.45" x="286.5" y="116.7" width="32.8" height="207.3"/>
+<text class="txf" x="302.9" y="112.7" text-anchor="middle" font-size="9">131</text>
+<rect class="up" x="323.3" y="229.5" width="32.8" height="94.5"/>
+<text class="txt" x="339.7" y="225.5" text-anchor="middle" font-size="9" font-weight="bold">60</text>
+<text class="mkl" x="321.3" y="342.0" text-anchor="end" font-size="9.5" transform="rotate(-30 321.3 342.0)">cruce|flip (V26)</text>
+<rect class="up" opacity="0.45" x="395.9" y="119.1" width="32.8" height="204.9"/>
+<text class="txf" x="412.3" y="115.1" text-anchor="middle" font-size="9">129</text>
+<rect class="up" x="432.7" y="248.8" width="32.8" height="75.2"/>
+<text class="txt" x="449.1" y="244.8" text-anchor="middle" font-size="9" font-weight="bold">47</text>
+<text class="txf" x="430.7" y="342.0" text-anchor="end" font-size="9.5" transform="rotate(-30 430.7 342.0)">continua|flip</text>
+<rect class="up" opacity="0.45" x="505.2" y="178.7" width="32.8" height="145.3"/>
+<text class="txf" x="521.6" y="174.7" text-anchor="middle" font-size="9">92</text>
+<rect class="dn" x="542.0" y="324.0" width="32.8" height="0.2"/>
+<text class="bt-r" x="558.4" y="338.0" text-anchor="middle" font-size="9" font-weight="bold">-0</text>
+<text class="mkl" x="540.0" y="342.0" text-anchor="end" font-size="9.5" transform="rotate(-30 540.0 342.0)">donchian|flip</text>
+<rect class="up" opacity="0.45" x="614.5" y="200.3" width="32.8" height="123.7"/>
+<text class="txf" x="630.9" y="196.3" text-anchor="middle" font-size="9">78</text>
+<rect class="up" x="651.3" y="280.2" width="32.8" height="43.8"/>
+<text class="txt" x="667.7" y="276.2" text-anchor="middle" font-size="9" font-weight="bold">28</text>
+<text class="txf" x="649.3" y="342.0" text-anchor="end" font-size="9.5" transform="rotate(-30 649.3 342.0)">patrones|exhaustion</text>
+<text class="bt-g" x="321.3" y="213.5" text-anchor="middle" font-size="10" font-weight="bold">mejor OOB ↑</text>
+<text class="bt-r" x="540.0" y="354.0" text-anchor="middle" font-size="10" font-weight="bold">colapsa OOB</text>
+</svg>

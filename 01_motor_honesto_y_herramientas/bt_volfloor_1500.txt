@@ -1,0 +1,67 @@
+/Users/hackerunet/openclaw-binance-trading/bot_alpha_portfolio/stable_v25_prototype/backtest.py:84: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  run_id = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+INFO: descargando 1500 velas 1h de ETHUSDT...
+INFO: descargando 1500 velas 1h de SOLUSDT...
+INFO: descargando 1500 velas 1h de BNBUSDT...
+INFO: descargando 1500 velas 1h de XRPUSDT...
+INFO: descargando 1500 velas 1h de ADAUSDT...
+INFO: descargando 1500 velas 1h de LINKUSDT...
+INFO: simulando 1290 timestamps x 6 símbolos...
+  ... 200/1290 (0 trades)
+  ... 400/1290 (20 trades)
+  ... 600/1290 (50 trades)
+  ... 800/1290 (84 trades)
+  ... 1000/1290 (111 trades)
+  ... 1200/1290 (188 trades)
+
+================================================================
+RESUMEN BACKTEST V25 (motor honesto: pesimista + costos completos)
+================================================================
+Ventana: 2026-04-18 07:00:00 → 2026-06-11 00:00:00
+Balance: $500.00 → $463.92 (-7.22%, $-36.08)
+Benchmark buy&hold misma ventana: -25.39% ← si no lo superamos, es beta, no edge
+Trades: 201 | WR: 54.73% | PF: 0.62
+
+--- POR SÍMBOLO ---
+  ADAUSDT: 30 trades | WR 60.0% | PnL $-7.49
+  BNBUSDT: 32 trades | WR 50.0% | PnL $-14.18
+  ETHUSDT: 35 trades | WR 62.9% | PnL $+0.16
+  LINKUSDT: 31 trades | WR 54.8% | PnL $-2.47
+  SOLUSDT: 37 trades | WR 54.1% | PnL $-3.93
+  XRPUSDT: 36 trades | WR 47.2% | PnL $-8.16
+
+--- POR PATRÓN DISPARADOR ---
+  Dark cloud cover (reversion): 6 trades | WR 50.0% | PnL $-1.15
+  Engulfing alcista (reversion): 8 trades | WR 25.0% | PnL $-1.05
+  Engulfing bajista (reversion): 35 trades | WR 57.1% | PnL $-6.30
+  Evening star (reversion): 36 trades | WR 52.8% | PnL $-4.77
+  Hammer (reversion): 4 trades | WR 100.0% | PnL $+1.06
+  Hanging man (reversion): 6 trades | WR 66.7% | PnL $+2.04
+  Harami alcista (confirmacion): 2 trades | WR 50.0% | PnL $-1.76
+  Harami bajista (confirmacion): 11 trades | WR 81.8% | PnL $+0.80
+  Inverted hammer (reversion): 3 trades | WR 33.3% | PnL $-0.52
+  Marubozu alcista (continuacion): 8 trades | WR 12.5% | PnL $-10.04
+  Marubozu bajista (continuacion): 17 trades | WR 52.9% | PnL $-1.93
+  Morning star (reversion): 12 trades | WR 50.0% | PnL $-3.11
+  Piercing line (reversion): 1 trades | WR 0.0% | PnL $-1.71
+  Shooting star (reversion): 11 trades | WR 72.7% | PnL $+2.14
+  Three black crows (continuacion): 11 trades | WR 45.5% | PnL $-4.92
+  Three white soldiers (continuacion): 2 trades | WR 50.0% | PnL $-1.74
+  Tweezer bottom (confirmacion): 7 trades | WR 42.9% | PnL $-1.39
+  Tweezer top (confirmacion): 21 trades | WR 66.7% | PnL $-1.73
+
+--- POR MOTIVO DE SALIDA ---
+  FIN DE VENTANA (administrativo): 1 trades | WR 0.0% | PnL $-0.40
+  OBJETIVO 100% ALCANZADO: 10 trades | WR 100.0% | PnL $+20.18
+  REVERSA: retrocedió 8pts desde 20% — profit asegurado: 58 trades | WR 43.1% | PnL $-4.62
+  REVERSA: retrocedió 8pts desde 30% — profit asegurado: 31 trades | WR 83.9% | PnL $+4.58
+  REVERSA: retrocedió 8pts desde 40% — profit asegurado: 24 trades | WR 95.8% | PnL $+9.65
+  REVERSA: retrocedió 8pts desde 50% — profit asegurado: 11 trades | WR 100.0% | PnL $+5.97
+  REVERSA: retrocedió 8pts desde 60% — profit asegurado: 6 trades | WR 83.3% | PnL $+2.99
+  REVERSA: retrocedió 8pts desde 70% — profit asegurado: 6 trades | WR 100.0% | PnL $+6.53
+  REVERSA: retrocedió 8pts desde 80% — profit asegurado: 3 trades | WR 100.0% | PnL $+3.08
+  REVERSA: retrocedió 8pts desde 90% — profit asegurado: 1 trades | WR 100.0% | PnL $+1.56
+  STOP DE PROTECCIÓN: 50 trades | WR 0.0% | PnL $-85.61
+
+Forense por trade + resumen guardados en: /Users/hackerunet/openclaw-binance-trading/bot_alpha_portfolio/stable_v25_prototype/forense_backtest/20260611_112106
+BACKTEST_RESUMEN|{"balance_inicial": 500.0, "balance_final": 463.92, "net_pnl_usd": -36.08, "net_pnl_pct": -7.22, "trades": 201, "win_rate": 54.73, "profit_factor": 0.62, "benchmark_buy_hold_pct": -25.39, "window_start": "2026-04-18 07:00:00", "window_end": "2026-06-11 00:00:00", "por_simbolo": {"ADAUSDT": {"trades": 30, "win_rate": 60.0, "pnl": -7.49}, "BNBUSDT": {"trades": 32, "win_rate": 50.0, "pnl": -14.18}, "ETHUSDT": {"trades": 35, "win_rate": 62.9, "pnl": 0.16}, "LINKUSDT": {"trades": 31, "win_rate": 54.8, "pnl": -2.47}, "SOLUSDT": {"trades": 37, "win_rate": 54.1, "pnl": -3.93}, "XRPUSDT": {"trades": 36, "win_rate": 47.2, "pnl": -8.16}}, "por_patron": {"Dark cloud cover (reversion)": {"trades": 6, "win_rate": 50.0, "pnl": -1.15}, "Engulfing alcista (reversion)": {"trades": 8, "win_rate": 25.0, "pnl": -1.05}, "Engulfing bajista (reversion)": {"trades": 35, "win_rate": 57.1, "pnl": -6.3}, "Evening star (reversion)": {"trades": 36, "win_rate": 52.8, "pnl": -4.77}, "Hammer (reversion)": {"trades": 4, "win_rate": 100.0, "pnl": 1.06}, "Hanging man (reversion)": {"trades": 6, "win_rate": 66.7, "pnl": 2.04}, "Harami alcista (confirmacion)": {"trades": 2, "win_rate": 50.0, "pnl": -1.76}, "Harami bajista (confirmacion)": {"trades": 11, "win_rate": 81.8, "pnl": 0.8}, "Inverted hammer (reversion)": {"trades": 3, "win_rate": 33.3, "pnl": -0.52}, "Marubozu alcista (continuacion)": {"trades": 8, "win_rate": 12.5, "pnl": -10.04}, "Marubozu bajista (continuacion)": {"trades": 17, "win_rate": 52.9, "pnl": -1.93}, "Morning star (reversion)": {"trades": 12, "win_rate": 50.0, "pnl": -3.11}, "Piercing line (reversion)": {"trades": 1, "win_rate": 0.0, "pnl": -1.71}, "Shooting star (reversion)": {"trades": 11, "win_rate": 72.7, "pnl": 2.14}, "Three black crows (continuacion)": {"trades": 11, "win_rate": 45.5, "pnl": -4.92}, "Three white soldiers (continuacion)": {"trades": 2, "win_rate": 50.0, "pnl": -1.74}, "Tweezer bottom (confirmacion)": {"trades": 7, "win_rate": 42.9, "pnl": -1.39}, "Tweezer top (confirmacion)": {"trades": 21, "win_rate": 66.7, "pnl": -1.73}}, "por_motivo_salida": {"FIN DE VENTANA (administrativo)": {"trades": 1, "win_rate": 0.0, "pnl": -0.4}, "OBJETIVO 100% ALCANZADO": {"trades": 10, "win_rate": 100.0, "pnl": 20.18}, "REVERSA: retrocedió 8pts desde 20% — profit asegurado": {"trades": 58, "win_rate": 43.1, "pnl": -4.62}, "REVERSA: retrocedió 8pts desde 30% — profit asegurado": {"trades": 31, "win_rate": 83.9, "pnl": 4.58}, "REVERSA: retrocedió 8pts desde 40% — profit asegurado": {"trades": 24, "win_rate": 95.8, "pnl": 9.65}, "REVERSA: retrocedió 8pts desde 50% — profit asegurado": {"trades": 11, "win_rate": 100.0, "pnl": 5.97}, "REVERSA: retrocedió 8pts desde 60% — profit asegurado": {"trades": 6, "win_rate": 83.3, "pnl": 2.99}, "REVERSA: retrocedió 8pts desde 70% — profit asegurado": {"trades": 6, "win_rate": 100.0, "pnl": 6.53}, "REVERSA: retrocedió 8pts desde 80% — profit asegurado": {"trades": 3, "win_rate": 100.0, "pnl": 3.08}, "REVERSA: retrocedió 8pts desde 90% — profit asegurado": {"trades": 1, "win_rate": 100.0, "pnl": 1.56}, "STOP DE PROTECCIÓN": {"trades": 50, "win_rate": 0.0, "pnl": -85.61}}}

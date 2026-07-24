@@ -1,0 +1,853 @@
+{
+ "modo": "continuo",
+ "pnl_pct": 6.19,
+ "pnl_usd": 30.94,
+ "trades": 827,
+ "wr": 27.45,
+ "pf": 1.033,
+ "bh_pct": 64.99,
+ "max_drawdown_pct": 16.3,
+ "percentil_vs_null": 73.0,
+ "null_mediana_pct": -4.56,
+ "por_motivo_salida": {
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 40.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 4.07
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 40.1": {
+   "trades": 5,
+   "win_rate": 100.0,
+   "pnl": 15.42
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 40.2": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 4.13
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 40.3": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 3.45
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 40.4": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 7.74
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 40.5": {
+   "trades": 4,
+   "win_rate": 75.0,
+   "pnl": 11.06
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 40.6": {
+   "trades": 4,
+   "win_rate": 100.0,
+   "pnl": 7.37
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 40.7": {
+   "trades": 6,
+   "win_rate": 66.7,
+   "pnl": 6.51
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 40.8": {
+   "trades": 3,
+   "win_rate": 33.3,
+   "pnl": -1.5
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 41.0": {
+   "trades": 2,
+   "win_rate": 50.0,
+   "pnl": 3.2
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 41.1": {
+   "trades": 3,
+   "win_rate": 66.7,
+   "pnl": 6.45
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 41.4": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 0.4
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 41.5": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 8.28
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 41.6": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 3.33
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 41.7": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 6.99
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 41.9": {
+   "trades": 3,
+   "win_rate": 66.7,
+   "pnl": 3.6
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 42.0": {
+   "trades": 2,
+   "win_rate": 0.0,
+   "pnl": -1.28
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 42.1": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 10.75
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 42.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 2.59
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 42.5": {
+   "trades": 5,
+   "win_rate": 80.0,
+   "pnl": 11.26
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 42.6": {
+   "trades": 2,
+   "win_rate": 50.0,
+   "pnl": -0.71
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 42.7": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 1.4
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 42.8": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 4.57
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 42.9": {
+   "trades": 2,
+   "win_rate": 50.0,
+   "pnl": 1.85
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 43.0": {
+   "trades": 2,
+   "win_rate": 0.0,
+   "pnl": -0.32
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 43.1": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 8.52
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 43.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 1.09
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 43.4": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 5.72
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 43.5": {
+   "trades": 3,
+   "win_rate": 66.7,
+   "pnl": 3.39
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 43.6": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 10.14
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 43.7": {
+   "trades": 2,
+   "win_rate": 0.0,
+   "pnl": -1.03
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 43.8": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 27.44
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 43.9": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 2.26
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 44.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 0.83
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 44.1": {
+   "trades": 3,
+   "win_rate": 66.7,
+   "pnl": 1.32
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 44.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 7.01
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 44.3": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 6.85
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 44.4": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 11.38
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 44.5": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 2.36
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 44.7": {
+   "trades": 3,
+   "win_rate": 66.7,
+   "pnl": 11.04
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 44.8": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 5.88
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 44.9": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 3.67
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 45.0": {
+   "trades": 2,
+   "win_rate": 50.0,
+   "pnl": -0.35
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 45.1": {
+   "trades": 3,
+   "win_rate": 66.7,
+   "pnl": 6.77
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 45.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 0.26
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 45.3": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 3.93
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 45.5": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 7.11
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 45.6": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 0.97
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 45.7": {
+   "trades": 4,
+   "win_rate": 100.0,
+   "pnl": 18.76
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 45.8": {
+   "trades": 4,
+   "win_rate": 75.0,
+   "pnl": 10.51
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 45.9": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 1.3
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 46.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 1.5
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 46.1": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 6.68
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 46.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 0.25
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 46.3": {
+   "trades": 4,
+   "win_rate": 75.0,
+   "pnl": 7.78
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 46.4": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 9.25
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 46.5": {
+   "trades": 1,
+   "win_rate": 0.0,
+   "pnl": -0.36
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 46.8": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 7.02
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 46.9": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 0.37
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 47.1": {
+   "trades": 2,
+   "win_rate": 50.0,
+   "pnl": -0.05
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 47.4": {
+   "trades": 3,
+   "win_rate": 66.7,
+   "pnl": 8.71
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 47.5": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 8.63
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 47.7": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 1.34
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 47.9": {
+   "trades": 1,
+   "win_rate": 0.0,
+   "pnl": -0.22
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 48.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 2.92
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 48.1": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 5.9
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 48.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 1.7
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 48.4": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 15.04
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 48.5": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 4.13
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 48.9": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 2.16
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 49.0": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 9.98
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 49.1": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 9.16
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 49.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 3.07
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 49.3": {
+   "trades": 2,
+   "win_rate": 50.0,
+   "pnl": 7.59
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 49.4": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 0.98
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 49.5": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 11.08
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 49.7": {
+   "trades": 3,
+   "win_rate": 66.7,
+   "pnl": 2.21
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 50.0": {
+   "trades": 1,
+   "win_rate": 0.0,
+   "pnl": -0.88
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 50.1": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 0.47
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 50.3": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 12.05
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 50.4": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 6.36
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 50.5": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 11.61
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 50.6": {
+   "trades": 1,
+   "win_rate": 0.0,
+   "pnl": -0.45
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 50.7": {
+   "trades": 2,
+   "win_rate": 50.0,
+   "pnl": 0.59
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 50.8": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 3.64
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 50.9": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 12.59
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 51.1": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 1.29
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 51.4": {
+   "trades": 1,
+   "win_rate": 0.0,
+   "pnl": -1.25
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 51.6": {
+   "trades": 2,
+   "win_rate": 50.0,
+   "pnl": 3.52
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 51.9": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 10.23
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 52.0": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 26.74
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 52.1": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 2.71
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 52.2": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 13.42
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 52.3": {
+   "trades": 3,
+   "win_rate": 100.0,
+   "pnl": 9.26
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 52.4": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 6.5
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 52.5": {
+   "trades": 1,
+   "win_rate": 0.0,
+   "pnl": -0.17
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 53.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 2.78
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 53.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 6.03
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 53.3": {
+   "trades": 1,
+   "win_rate": 0.0,
+   "pnl": -0.62
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 53.4": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 10.39
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 53.6": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 5.48
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 53.8": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 10.53
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 54.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 8.8
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 54.1": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 1.88
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 54.3": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 5.56
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 54.4": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 4.63
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 54.5": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 7.6
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 54.8": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 7.39
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 55.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 5.29
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 55.2": {
+   "trades": 2,
+   "win_rate": 50.0,
+   "pnl": 7.35
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 55.6": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 0.14
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 55.7": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 0.17
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 55.9": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 12.53
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 56.0": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 10.32
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 56.2": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 9.24
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 56.5": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 4.07
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 56.6": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 7.46
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 57.1": {
+   "trades": 2,
+   "win_rate": 50.0,
+   "pnl": 4.15
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 57.3": {
+   "trades": 1,
+   "win_rate": 0.0,
+   "pnl": -0.78
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 57.4": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 18.37
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 58.5": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 3.27
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 58.8": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 11.71
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 59.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 6.39
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 59.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 2.72
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 59.3": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 11.44
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 59.5": {
+   "trades": 1,
+   "win_rate": 0.0,
+   "pnl": -0.59
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 59.8": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 21.4
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 59.9": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 4.49
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 60.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 8.18
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 60.8": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 6.18
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 61.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 14.82
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 61.4": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 10.45
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 61.5": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 7.35
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 62.5": {
+   "trades": 2,
+   "win_rate": 100.0,
+   "pnl": 5.65
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 62.6": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 6.54
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 62.7": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 3.22
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 62.8": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 3.66
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 63.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 8.74
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 63.4": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 4.77
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 63.9": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 4.76
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 64.9": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 5.02
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 65.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 4.29
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 65.3": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 8.27
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 66.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 1.9
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 67.2": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 9.4
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 67.6": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 7.6
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 68.5": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 9.32
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 69.1": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 5.39
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 69.6": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 11.06
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 70.1": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 21.09
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 71.5": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 7.22
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 71.9": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 15.05
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 72.0": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 10.6
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 72.8": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 11.21
+  },
+  "AGOTAMIENTO ADX: cayendo 2v desde pico 75.1": {
+   "trades": 1,
+   "win_rate": 100.0,
+   "pnl": 5.72
+  },
+  "FLIP DE TENDENCIA (alineación opuesta)": {
+   "trades": 14,
+   "win_rate": 42.9,
+   "pnl": 2.17
+  },
+  "STOP DE PROTECCIÓN": {
+   "trades": 551,
+   "win_rate": 0.0,
+   "pnl": -921.05
+  }
+ },
+ "por_simbolo": {
+  "ADAUSDT": {
+   "trades": 129,
+   "win_rate": 27.9,
+   "pnl": 18.46
+  },
+  "BNBUSDT": {
+   "trades": 127,
+   "win_rate": 30.7,
+   "pnl": 35.21
+  },
+  "ETHUSDT": {
+   "trades": 130,
+   "win_rate": 27.7,
+   "pnl": 25.46
+  },
+  "LINKUSDT": {
+   "trades": 155,
+   "win_rate": 25.8,
+   "pnl": -24.49
+  },
+  "SOLUSDT": {
+   "trades": 144,
+   "win_rate": 28.5,
+   "pnl": -0.86
+  },
+  "XRPUSDT": {
+   "trades": 142,
+   "win_rate": 24.6,
+   "pnl": -22.85
+  }
+ },
+ "config": {
+  "symbols": [
+   "ETHUSDT",
+   "SOLUSDT",
+   "BNBUSDT",
+   "XRPUSDT",
+   "ADAUSDT",
+   "LINKUSDT"
+  ],
+  "interval": "4h",
+  "entry_mode": "cruce",
+  "exit_mode": "tendencia",
+  "trailing_stop_tendencia": false,
+  "trailing_arm_r": 2.0,
+  "trailing_distance_r": 1.0,
+  "fee": 0.0002,
+  "slippage": 0.0002,
+  "years": 4.0,
+  "end": "2026-06-11",
+  "mc": 100,
+  "seed": 42
+ }
+}

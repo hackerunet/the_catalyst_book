@@ -1,0 +1,111 @@
+INFO: descargando 17520 velas 1h de ETHUSDT (con taker-buy)...
+INFO: descargando 17520 velas 1h de SOLUSDT (con taker-buy)...
+INFO: descargando 17520 velas 1h de BNBUSDT (con taker-buy)...
+INFO: descargando 17520 velas 1h de XRPUSDT (con taker-buy)...
+INFO: descargando 17520 velas 1h de ADAUSDT (con taker-buy)...
+INFO: descargando 17520 velas 1h de LINKUSDT (con taker-buy)...
+INFO: corriendo motor...
+INFO: simulando 17310 timestamps x 6 símbolos...
+  ... 200/17310 (0 trades)
+  ... 400/17310 (11 trades)
+  ... 600/17310 (31 trades)
+  ... 800/17310 (39 trades)
+  ... 1000/17310 (44 trades)
+  ... 1200/17310 (54 trades)
+  ... 1400/17310 (67 trades)
+  ... 1600/17310 (78 trades)
+  ... 1800/17310 (88 trades)
+  ... 2000/17310 (95 trades)
+  ... 2200/17310 (109 trades)
+  ... 2400/17310 (119 trades)
+  ... 2600/17310 (136 trades)
+  ... 2800/17310 (151 trades)
+  ... 3000/17310 (171 trades)
+  ... 3200/17310 (188 trades)
+  ... 3400/17310 (199 trades)
+  ... 3600/17310 (215 trades)
+  ... 3800/17310 (228 trades)
+  ... 4000/17310 (246 trades)
+  ... 4200/17310 (251 trades)
+  ... 4400/17310 (260 trades)
+  ... 4600/17310 (272 trades)
+  ... 4800/17310 (290 trades)
+  ... 5000/17310 (308 trades)
+  ... 5200/17310 (320 trades)
+  ... 5400/17310 (326 trades)
+  ... 5600/17310 (341 trades)
+  ... 5800/17310 (354 trades)
+  ... 6000/17310 (366 trades)
+  ... 6200/17310 (372 trades)
+  ... 6400/17310 (385 trades)
+  ... 6600/17310 (397 trades)
+  ... 6800/17310 (402 trades)
+  ... 7000/17310 (416 trades)
+  ... 7200/17310 (420 trades)
+  ... 7400/17310 (437 trades)
+  ... 7600/17310 (449 trades)
+  ... 7800/17310 (463 trades)
+  ... 8000/17310 (472 trades)
+  ... 8200/17310 (486 trades)
+  ... 8400/17310 (496 trades)
+  ... 8600/17310 (508 trades)
+  ... 8800/17310 (520 trades)
+  ... 9000/17310 (542 trades)
+  ... 9200/17310 (552 trades)
+  ... 9400/17310 (571 trades)
+  ... 9600/17310 (588 trades)
+  ... 9800/17310 (601 trades)
+  ... 10000/17310 (611 trades)
+  ... 10200/17310 (618 trades)
+  ... 10400/17310 (631 trades)
+  ... 10600/17310 (644 trades)
+  ... 10800/17310 (657 trades)
+  ... 11000/17310 (672 trades)
+  ... 11200/17310 (684 trades)
+  ... 11400/17310 (694 trades)
+  ... 11600/17310 (707 trades)
+  ... 11800/17310 (722 trades)
+  ... 12000/17310 (735 trades)
+  ... 12200/17310 (736 trades)
+  ... 12400/17310 (749 trades)
+  ... 12600/17310 (759 trades)
+  ... 12800/17310 (766 trades)
+  ... 13000/17310 (770 trades)
+  ... 13200/17310 (780 trades)
+  ... 13400/17310 (786 trades)
+  ... 13600/17310 (805 trades)
+  ... 13800/17310 (822 trades)
+  ... 14000/17310 (830 trades)
+  ... 14200/17310 (835 trades)
+  ... 14400/17310 (841 trades)
+  ... 14600/17310 (848 trades)
+  ... 14800/17310 (858 trades)
+  ... 15000/17310 (867 trades)
+  ... 15200/17310 (876 trades)
+  ... 15400/17310 (886 trades)
+  ... 15600/17310 (897 trades)
+  ... 15800/17310 (909 trades)
+  ... 16000/17310 (916 trades)
+  ... 16200/17310 (928 trades)
+  ... 16400/17310 (936 trades)
+  ... 16600/17310 (950 trades)
+  ... 16800/17310 (975 trades)
+  ... 17000/17310 (982 trades)
+  ... 17200/17310 (992 trades)
+
+======================================================================
+12828 estados en ganancia (prog>=20) | tasa BASE reverso = 31.5%
+======================================================================
+
+-- Marginal: sell_ratio > 50% (venta domina la vela) --
+  venta>compra (n=7507): P(reverso)=31.7%  | compra>=venta (n=5321): P(reverso)=31.3%  | spread +0.4pp
+
+-- PROPUESTA EXACTA DEL USUARIO: dentro de prob_calibrada>=30 (ya dispara alerta) --
+  n en esta zona: 4665 | tasa de reverso ya (sin filtro de volumen): 39.9%
+  + venta>compra (n=2822): P(reverso)=40.3%  | + compra>=venta (n=1843): P(reverso)=39.3%  | spread +1.0pp
+
+-- Umbral 40 (el techo real observado en la calibración) vs 30 (propuesta del usuario) --
+  prob>=25: n= 8535 | P(reverso)= 35.5% | falsas alarmas (no revierte)= 64.5%
+  prob>=30: n= 4665 | P(reverso)= 39.9% | falsas alarmas (no revierte)= 60.1%
+  prob>=35: n= 2602 | P(reverso)= 44.1% | falsas alarmas (no revierte)= 55.9%
+  prob>=40: n= 1388 | P(reverso)= 49.6% | falsas alarmas (no revierte)= 50.4%

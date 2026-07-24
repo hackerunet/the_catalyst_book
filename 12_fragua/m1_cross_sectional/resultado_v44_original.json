@@ -1,0 +1,44 @@
+{
+  "tag": "v44_original",
+  "symbols": [
+    "ETHUSDT",
+    "SOLUSDT",
+    "BNBUSDT",
+    "XRPUSDT",
+    "ADAUSDT",
+    "LINKUSDT"
+  ],
+  "lookback_h": 480,
+  "k": 2,
+  "gross": 1.0,
+  "rebal_every_h": 24,
+  "warmup": 480,
+  "n_null": 200,
+  "seed": 42,
+  "min_offset_rebalanceos": 20,
+  "funding_on": {
+    "pnl_pct": 29.162629777363435,
+    "cagr_pct": 8.911166759172762,
+    "sharpe": 0.45714185835649246,
+    "max_dd_pct": 37.07583905247881,
+    "profit_factor": 1.0159774859197055,
+    "turnover_medio": 0.3469385077756806,
+    "net_expo_medio_abs": 0.005526104736073698,
+    "quebro": false
+  },
+  "funding_off": {
+    "pnl_pct": 78.34721693752368,
+    "cagr_pct": 21.287488063281977,
+    "sharpe": 0.8686857679351917,
+    "max_dd_pct": 26.51638687962042,
+    "profit_factor": 1.030581015371813,
+    "turnover_medio": 0.3469385077756806,
+    "net_expo_medio_abs": 0.005526104736073698,
+    "quebro": false
+  },
+  "null_mediana_pct_on": -58.203592970775105,
+  "null_p10_pct_on": -78.24796577557593,
+  "null_p90_pct_on": -12.524463022596674,
+  "percentil_vs_null_on": 97.5,
+  "pasa_criterio": true
+}

@@ -1,0 +1,11 @@
+.env
+.env.*
+*.out
+*.log
+__pycache__/
+*.pyc
+venv/
+forense/
+forense_backtest/
+trades_*.json
+*.pkl

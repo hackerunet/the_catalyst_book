@@ -1,0 +1,109 @@
+{
+ "exp": "scaleout",
+ "pnl_pct": 100.71,
+ "trades": 426,
+ "wr": 19.48,
+ "pf": 1.918,
+ "bh_pct": 64.99,
+ "dd_cerrados": 20.4,
+ "ventana": "2022-07-17 04:00:00 → 2026-06-11 00:00:00",
+ "dd_mtm_max": 21.8,
+ "dd_90d": 16.9,
+ "cagr_pct": 19.04,
+ "por_año_mtm_pct": {
+  "2022": -5.9,
+  "2023": 35.01,
+  "2024": 23.34,
+  "2025": 16.16,
+  "2026": 10.27
+ },
+ "rolling_365d": {
+  "n_ventanas": 1096,
+  "mediana": 26.85,
+  "p10": -10.29,
+  "minimo": -19.86,
+  "maximo": 61.74,
+  "pct_ventanas_positivas": 87.0,
+  "pct_ventanas_sobre_12": 80.9,
+  "pct_ventanas_sobre_25": 55.3
+ },
+ "max_dias_bajo_agua": 453,
+ "por_año_realizado_usd": {
+  "2022": -62.05,
+  "2023": -16.93,
+  "2024": 193.67,
+  "2025": 213.26,
+  "2026": 175.54
+ },
+ "por_motivo_salida": {
+  "FIN DE VENTANA (administrativo)": {
+   "trades": 6,
+   "win_rate": 100.0,
+   "pnl": 89.49
+  },
+  "FLIP DE TENDENCIA (alineación opuesta)": {
+   "trades": 83,
+   "win_rate": 92.8,
+   "pnl": 954.72
+  },
+  "STOP DE PROTECCIÓN": {
+   "trades": 337,
+   "win_rate": 0.0,
+   "pnl": -540.66
+  }
+ },
+ "por_simbolo": {
+  "ADAUSDT": {
+   "trades": 69,
+   "win_rate": 21.7,
+   "pnl": 74.67
+  },
+  "BNBUSDT": {
+   "trades": 61,
+   "win_rate": 21.3,
+   "pnl": 108.31
+  },
+  "ETHUSDT": {
+   "trades": 65,
+   "win_rate": 21.5,
+   "pnl": 90.06
+  },
+  "LINKUSDT": {
+   "trades": 83,
+   "win_rate": 18.1,
+   "pnl": 10.84
+  },
+  "SOLUSDT": {
+   "trades": 68,
+   "win_rate": 20.6,
+   "pnl": 88.94
+  },
+  "XRPUSDT": {
+   "trades": 80,
+   "win_rate": 15.0,
+   "pnl": 130.74
+  }
+ },
+ "config": {
+  "symbols": [
+   "ETHUSDT",
+   "SOLUSDT",
+   "BNBUSDT",
+   "XRPUSDT",
+   "ADAUSDT",
+   "LINKUSDT"
+  ],
+  "interval": "4h",
+  "entry_mode": "cruce",
+  "exit_mode": "tendencia",
+  "risk_per_trade": 0.0033333333333333335,
+  "cooldown_h": 8,
+  "fee": 0.0002,
+  "slippage": 0.0002,
+  "scale_out": true,
+  "scale_out_r": 1.0,
+  "scale_out_fraction": 0.25
+ },
+ "trades_con_scaleout": 232,
+ "pnl_parciales_usd": 113.03
+}

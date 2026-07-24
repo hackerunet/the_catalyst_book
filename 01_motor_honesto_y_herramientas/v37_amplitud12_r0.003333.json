@@ -1,0 +1,143 @@
+{
+ "exp": "amplitud12_r0.003333",
+ "pnl_pct": 190.04,
+ "trades": 853,
+ "wr": 18.29,
+ "pf": 1.611,
+ "bh_pct": 29.45,
+ "dd_cerrados": 39.9,
+ "ventana": "2022-07-17 04:00:00 → 2026-06-11 00:00:00",
+ "dd_mtm_max": 39.2,
+ "dd_90d": 30.2,
+ "cagr_pct": 30.52,
+ "por_año_mtm_pct": {
+  "2022": -15.91,
+  "2023": 67.92,
+  "2024": 47.78,
+  "2025": 18.7,
+  "2026": 17.1
+ },
+ "rolling_365d": {
+  "n_ventanas": 1096,
+  "mediana": 42.32,
+  "p10": -18.04,
+  "minimo": -37.0,
+  "maximo": 139.87,
+  "pct_ventanas_positivas": 85.3,
+  "pct_ventanas_sobre_12": 81.2,
+  "pct_ventanas_sobre_25": 73.3
+ },
+ "max_dias_bajo_agua": 458,
+ "por_año_realizado_usd": {
+  "2022": -135.49,
+  "2023": -29.83,
+  "2024": 474.05,
+  "2025": 163.65,
+  "2026": 477.85
+ },
+ "por_motivo_salida": {
+  "FIN DE VENTANA (administrativo)": {
+   "trades": 11,
+   "win_rate": 90.9,
+   "pnl": 283.24
+  },
+  "FLIP DE TENDENCIA (alineación opuesta)": {
+   "trades": 170,
+   "win_rate": 85.9,
+   "pnl": 2199.49
+  },
+  "STOP DE PROTECCIÓN": {
+   "trades": 672,
+   "win_rate": 0.0,
+   "pnl": -1532.54
+  }
+ },
+ "por_simbolo": {
+  "ADAUSDT": {
+   "trades": 69,
+   "win_rate": 21.7,
+   "pnl": 99.12
+  },
+  "ATOMUSDT": {
+   "trades": 70,
+   "win_rate": 17.1,
+   "pnl": -1.83
+  },
+  "AVAXUSDT": {
+   "trades": 64,
+   "win_rate": 23.4,
+   "pnl": 107.62
+  },
+  "BNBUSDT": {
+   "trades": 61,
+   "win_rate": 18.0,
+   "pnl": 144.77
+  },
+  "BTCUSDT": {
+   "trades": 54,
+   "win_rate": 24.1,
+   "pnl": 168.29
+  },
+  "DOGEUSDT": {
+   "trades": 71,
+   "win_rate": 18.3,
+   "pnl": 82.64
+  },
+  "DOTUSDT": {
+   "trades": 73,
+   "win_rate": 19.2,
+   "pnl": -11.88
+  },
+  "ETHUSDT": {
+   "trades": 65,
+   "win_rate": 21.5,
+   "pnl": 142.74
+  },
+  "LINKUSDT": {
+   "trades": 83,
+   "win_rate": 15.7,
+   "pnl": -0.2
+  },
+  "LTCUSDT": {
+   "trades": 95,
+   "win_rate": 12.6,
+   "pnl": -53.14
+  },
+  "SOLUSDT": {
+   "trades": 68,
+   "win_rate": 19.1,
+   "pnl": 98.73
+  },
+  "XRPUSDT": {
+   "trades": 80,
+   "win_rate": 13.8,
+   "pnl": 173.33
+  }
+ },
+ "config": {
+  "symbols": [
+   "ETHUSDT",
+   "SOLUSDT",
+   "BNBUSDT",
+   "XRPUSDT",
+   "ADAUSDT",
+   "LINKUSDT",
+   "BTCUSDT",
+   "DOGEUSDT",
+   "AVAXUSDT",
+   "DOTUSDT",
+   "LTCUSDT",
+   "ATOMUSDT"
+  ],
+  "interval": "4h",
+  "entry_mode": "cruce",
+  "exit_mode": "tendencia",
+  "risk_per_trade": 0.0033333,
+  "cooldown_h": 8,
+  "fee": 0.0002,
+  "slippage": 0.0002,
+  "scale_out": false,
+  "scale_out_r": null,
+  "scale_out_fraction": null
+ }
+}

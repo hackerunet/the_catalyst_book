@@ -1,0 +1,36 @@
+{
+ "modo": "continuo",
+ "pnl_pct": 0.0,
+ "pnl_usd": 0,
+ "trades": 0,
+ "wr": 0.0,
+ "pf": null,
+ "bh_pct": 64.99,
+ "max_drawdown_pct": 0.0,
+ "percentil_vs_null": null,
+ "null_mediana_pct": null,
+ "por_motivo_salida": {},
+ "por_simbolo": {},
+ "config": {
+  "symbols": [
+   "ETHUSDT",
+   "SOLUSDT",
+   "BNBUSDT",
+   "XRPUSDT",
+   "ADAUSDT",
+   "LINKUSDT"
+  ],
+  "interval": "4h",
+  "entry_mode": "cruce",
+  "exit_mode": "tendencia",
+  "trailing_stop_tendencia": false,
+  "trailing_arm_r": 2.0,
+  "trailing_distance_r": 1.0,
+  "fee": 0.0002,
+  "slippage": 0.0002,
+  "years": 4.0,
+  "end": "2026-06-11",
+  "mc": 100,
+  "seed": 42
+ }
+}

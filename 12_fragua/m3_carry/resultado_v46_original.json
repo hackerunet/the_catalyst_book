@@ -1,0 +1,89 @@
+{
+  "tag": "v46_original",
+  "symbols": [
+    "ETHUSDT",
+    "SOLUSDT",
+    "BNBUSDT",
+    "XRPUSDT",
+    "ADAUSDT",
+    "LINKUSDT"
+  ],
+  "k": 2,
+  "gross": 1.0,
+  "rebal_every_h": 24,
+  "warmup": 1,
+  "n_null": 200,
+  "seed": 42,
+  "min_offset_rebalanceos": 20,
+  "meta_funding": {
+    "colisiones_hora": 0,
+    "eventos_promedio_por_simbolo": 3285,
+    "por_simbolo": {
+      "ETHUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": 7.802e-05
+      },
+      "SOLUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": -5.452e-05
+      },
+      "BNBUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": 0.0
+      },
+      "XRPUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": 0.0001
+      },
+      "ADAUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": -0.00033988
+      },
+      "LINKUSDT": {
+        "eventos_en_ventana": 3285,
+        "eventos_sin_barra": 0,
+        "colisiones_hora": 0,
+        "max_gap_horas": 8.0,
+        "seed_pre_ventana": 8.313e-05
+      }
+    }
+  },
+  "funding_on": {
+    "pnl_pct": -64.23210674229352,
+    "cagr_pct": -29.032935080989695,
+    "sharpe": -1.324986399860106,
+    "max_dd_pct": 66.7903057612618,
+    "profit_factor": 0.9560949418223953,
+    "turnover_medio": 0.9797968861856882,
+    "net_expo_medio_abs": 0.004932881788992847,
+    "quebro": false
+  },
+  "funding_off": {
+    "pnl_pct": -68.10449818265599,
+    "cagr_pct": -31.694310940615665,
+    "sharpe": -1.486041980759563,
+    "max_dd_pct": 69.43288809207651,
+    "profit_factor": 0.9508922075104054,
+    "turnover_medio": 0.9797968861856882,
+    "net_expo_medio_abs": 0.004932881788992847,
+    "quebro": false
+  },
+  "null_mediana_pct_on": -68.20724850351328,
+  "percentil_vs_null_on": 59.0,
+  "pasa_criterio": "False"
+}

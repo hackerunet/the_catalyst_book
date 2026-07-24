@@ -1,0 +1,69 @@
+FROM python:3.13-slim
+
+# Evitar escritura de bytecodes y usar buffer sin bloqueo (mejor logging en Docker)
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+# Instalar Node.js para integrar Claude Code CLI y utilidades minimas de red limitadas
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    ca-certificates \
+    && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+    && apt-get install -y nodejs \
+    && npm install -g @anthropic-ai/claude-code \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Configurar seguridad extrema: Crear usuario 'botrunner' para NO ejecutar bots como root
+RUN groupadd -r botgroup && useradd -m -r -g botgroup -s /bin/bash botrunner
+
+WORKDIR /app
+
+# Instalar dependencias puras (aprovechando cache de layers en Docker)
+COPY requirements-cloud.txt /app/
+RUN pip install --no-cache-dir -r requirements-cloud.txt
+
+# Copiar entorno global (Secretos viajan protegidos en la imagen privada)
+COPY .env /app/.env
+
+# Copiar implementaciones SIN tocar su estructura actual
+COPY bot_alpha_portfolio /app/bot_alpha_portfolio/
+
+# Integrar memoria y configuraciones de Claude
+COPY .claude /app/.claude/
+
+# Script de sincronizacion de estado (trades_*.json + forense/) contra GCS,
+# para que un redeploy no borre la evidencia acumulada en la nube.
+COPY state_sync.py /app/state_sync.py
+
+# Puente Claude<->Telegram de doble vía (2026-06-20) — responde preguntas
+# sobre el proyecto, no toca Binance ni la estrategia. Ver claude_bridge.py.
+COPY claude_bridge.py /app/claude_bridge.py
+
+# Vigilante de salud (2026-07-09) — SOLO lee (cuenta, DD-90d, disco, procesos,
+# zombies); alerta y manda resumen semanal a Telegram. No toca los bots. Ver monitor_salud.py.
+COPY monitor_salud.py /app/monitor_salud.py
+
+# Copiar y dar permisos al script de entrada
+COPY entrypoint.sh /app/
+RUN chmod +x /app/entrypoint.sh
+
+# Transferir la propiedad de todo el directorio al usuario enjaulado
+RUN chown -R botrunner:botgroup /app \
+    && chown -R botrunner:botgroup /home/botrunner
+
+# Endurecer los secretos (2026-07-09): .env legible SOLO por botrunner (el usuario
+# que corre los bots). Defensa en profundidad — junto al usuario sin privilegios, el
+# registro privado, cero puertos expuestos, acceso solo por IAP, y la API key
+# restringida por IP + sin permiso de retiro (una fuga sería de bajo impacto).
+RUN chmod 600 /app/.env
+
+# Bajar privilegios: Cambiar de root a botrunner permanentemente
+USER botrunner
+
+# SECURE CONFIGURATION:
+# No incluimos instrucción EXPOSE para ningún puerto. 
+# El contenedor no podrá recibir peticiones directas y estará cerrado al mundo, 
+# interactuando únicamente hacia el exterior mediante Telegram Webhooks/Polling y webSockets.
+
+ENTRYPOINT ["/app/entrypoint.sh"]

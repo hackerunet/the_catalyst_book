@@ -1,0 +1,2209 @@
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BTCUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:00:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $75496.0 | Out: $75692.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $75333.30 (+0.22%) | Faltó para TP: $33.74
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 23:45:00 | Salida: 2026-05-24 03:00:00
+[SIMULADOR] ├─ Precios -> In: $76715.2 | Out: $76966.70 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76596.90 (+0.15%) | Faltó para TP: $133.20
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-24 03:30:00 | Salida: 2026-05-24 10:15:00
+[SIMULADOR] ├─ Precios -> In: $76724.3 | Out: $77052.69 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76611.00 (+0.15%) | Faltó para TP: $215.09
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 18:15:00 | Salida: 2026-05-31 01:00:00
+[SIMULADOR] ├─ Precios -> In: $73935.8 | Out: $74132.61 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $73750.00 (+0.25%) | Faltó para TP: $11.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.60 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.31
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.48 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.23
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.25 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.49
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: 'close'
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $487.64
+[SIMULADOR] Net PnL:              $-12.36 (-2.47%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.47
+[SIMULADOR] Pérdida Bruta:        $13.83
+[SIMULADOR] Profit Factor:        0.107
+[SIMULADOR] Esperanza / Trade:    $-0.73
+[SIMULADOR] Maximum Drawdown:     2.57%
+[SIMULADOR] Avg Win / Avg Loss:   $0.49 / $0.99
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BTCUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:00:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $75496.0 | Out: $75692.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $75333.30 (+0.22%) | Faltó para TP: $33.74
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 23:45:00 | Salida: 2026-05-24 03:00:00
+[SIMULADOR] ├─ Precios -> In: $76715.2 | Out: $76966.70 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76596.90 (+0.15%) | Faltó para TP: $133.20
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-24 03:30:00 | Salida: 2026-05-24 10:15:00
+[SIMULADOR] ├─ Precios -> In: $76724.3 | Out: $77052.69 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76611.00 (+0.15%) | Faltó para TP: $215.09
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 18:15:00 | Salida: 2026-05-31 01:00:00
+[SIMULADOR] ├─ Precios -> In: $73935.8 | Out: $74132.61 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $73750.00 (+0.25%) | Faltó para TP: $11.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.60 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.31
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.48 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.23
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.25 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.49
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: 'close'
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $487.64
+[SIMULADOR] Net PnL:              $-12.36 (-2.47%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.47
+[SIMULADOR] Pérdida Bruta:        $13.83
+[SIMULADOR] Profit Factor:        0.107
+[SIMULADOR] Esperanza / Trade:    $-0.73
+[SIMULADOR] Maximum Drawdown:     2.57%
+[SIMULADOR] Avg Win / Avg Loss:   $0.49 / $0.99
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BTCUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:00:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $75496.0 | Out: $75692.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $75333.30 (+0.22%) | Faltó para TP: $33.74
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 23:45:00 | Salida: 2026-05-24 03:00:00
+[SIMULADOR] ├─ Precios -> In: $76715.2 | Out: $76966.70 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76596.90 (+0.15%) | Faltó para TP: $133.20
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-24 03:30:00 | Salida: 2026-05-24 10:15:00
+[SIMULADOR] ├─ Precios -> In: $76724.3 | Out: $77052.69 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76611.00 (+0.15%) | Faltó para TP: $215.09
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 18:15:00 | Salida: 2026-05-31 01:00:00
+[SIMULADOR] ├─ Precios -> In: $73935.8 | Out: $74132.61 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $73750.00 (+0.25%) | Faltó para TP: $11.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.60 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.31
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.48 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.23
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.25 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.49
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: 'close'
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $487.64
+[SIMULADOR] Net PnL:              $-12.36 (-2.47%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.47
+[SIMULADOR] Pérdida Bruta:        $13.83
+[SIMULADOR] Profit Factor:        0.107
+[SIMULADOR] Esperanza / Trade:    $-0.73
+[SIMULADOR] Maximum Drawdown:     2.57%
+[SIMULADOR] Avg Win / Avg Loss:   $0.49 / $0.99
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BTCUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:00:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $75496.0 | Out: $75692.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $75333.30 (+0.22%) | Faltó para TP: $33.74
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 23:45:00 | Salida: 2026-05-24 03:00:00
+[SIMULADOR] ├─ Precios -> In: $76715.2 | Out: $76966.70 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76596.90 (+0.15%) | Faltó para TP: $133.20
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-24 03:30:00 | Salida: 2026-05-24 10:15:00
+[SIMULADOR] ├─ Precios -> In: $76724.3 | Out: $77052.69 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76611.00 (+0.15%) | Faltó para TP: $215.09
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 18:15:00 | Salida: 2026-05-31 01:00:00
+[SIMULADOR] ├─ Precios -> In: $73935.8 | Out: $74132.61 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $73750.00 (+0.25%) | Faltó para TP: $11.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.60 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.31
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.48 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.23
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.25 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.49
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: 'close'
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $487.64
+[SIMULADOR] Net PnL:              $-12.36 (-2.47%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.47
+[SIMULADOR] Pérdida Bruta:        $13.83
+[SIMULADOR] Profit Factor:        0.107
+[SIMULADOR] Esperanza / Trade:    $-0.73
+[SIMULADOR] Maximum Drawdown:     2.57%
+[SIMULADOR] Avg Win / Avg Loss:   $0.49 / $0.99
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BTCUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:00:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $75496.0 | Out: $75692.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $75333.30 (+0.22%) | Faltó para TP: $33.74
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 23:45:00 | Salida: 2026-05-24 03:00:00
+[SIMULADOR] ├─ Precios -> In: $76715.2 | Out: $76966.70 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76596.90 (+0.15%) | Faltó para TP: $133.20
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-24 03:30:00 | Salida: 2026-05-24 10:15:00
+[SIMULADOR] ├─ Precios -> In: $76724.3 | Out: $77052.69 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76611.00 (+0.15%) | Faltó para TP: $215.09
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 18:15:00 | Salida: 2026-05-31 01:00:00
+[SIMULADOR] ├─ Precios -> In: $73935.8 | Out: $74132.61 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $73750.00 (+0.25%) | Faltó para TP: $11.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.60 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.31
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.48 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.23
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.25 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.49
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: 'close'
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $487.64
+[SIMULADOR] Net PnL:              $-12.36 (-2.47%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.47
+[SIMULADOR] Pérdida Bruta:        $13.83
+[SIMULADOR] Profit Factor:        0.107
+[SIMULADOR] Esperanza / Trade:    $-0.73
+[SIMULADOR] Maximum Drawdown:     2.57%
+[SIMULADOR] Avg Win / Avg Loss:   $0.49 / $0.99
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BTCUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:00:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $75496.0 | Out: $75692.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $75333.30 (+0.22%) | Faltó para TP: $33.74
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 23:45:00 | Salida: 2026-05-24 03:00:00
+[SIMULADOR] ├─ Precios -> In: $76715.2 | Out: $76966.70 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76596.90 (+0.15%) | Faltó para TP: $133.20
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-24 03:30:00 | Salida: 2026-05-24 10:15:00
+[SIMULADOR] ├─ Precios -> In: $76724.3 | Out: $77052.69 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76611.00 (+0.15%) | Faltó para TP: $215.09
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 18:15:00 | Salida: 2026-05-31 01:00:00
+[SIMULADOR] ├─ Precios -> In: $73935.8 | Out: $74132.61 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $73750.00 (+0.25%) | Faltó para TP: $11.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.60 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.31
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.48 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.23
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.25 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.49
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: 'close'
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $487.64
+[SIMULADOR] Net PnL:              $-12.36 (-2.47%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.47
+[SIMULADOR] Pérdida Bruta:        $13.83
+[SIMULADOR] Profit Factor:        0.107
+[SIMULADOR] Esperanza / Trade:    $-0.73
+[SIMULADOR] Maximum Drawdown:     2.57%
+[SIMULADOR] Avg Win / Avg Loss:   $0.49 / $0.99
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BTCUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:00:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $75496.0 | Out: $75692.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $75333.30 (+0.22%) | Faltó para TP: $33.74
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 23:45:00 | Salida: 2026-05-24 03:00:00
+[SIMULADOR] ├─ Precios -> In: $76715.2 | Out: $76966.70 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76596.90 (+0.15%) | Faltó para TP: $133.20
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-24 03:30:00 | Salida: 2026-05-24 10:15:00
+[SIMULADOR] ├─ Precios -> In: $76724.3 | Out: $77052.69 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $76611.00 (+0.15%) | Faltó para TP: $215.09
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 18:15:00 | Salida: 2026-05-31 01:00:00
+[SIMULADOR] ├─ Precios -> In: $73935.8 | Out: $74132.61 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $73750.00 (+0.25%) | Faltó para TP: $11.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.60 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.31
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.48 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.23
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.25 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.49
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica XRPUSDT: 'close'
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $487.64
+[SIMULADOR] Net PnL:              $-12.36 (-2.47%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.47
+[SIMULADOR] Pérdida Bruta:        $13.83
+[SIMULADOR] Profit Factor:        0.107
+[SIMULADOR] Esperanza / Trade:    $-0.73
+[SIMULADOR] Maximum Drawdown:     2.57%
+[SIMULADOR] Avg Win / Avg Loss:   $0.49 / $0.99
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] BTCUSDT -> Qty: 4 decimales | Precio: 2 decimales
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BTCUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para BTCUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BTCUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica ETHUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 14:30:00
+[SIMULADOR] ├─ Precios -> In: $83.15 | Out: $83.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.01 (+0.17%) | Faltó para TP: $0.54
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-1.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 17:30:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $84.09 | Out: $84.83 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.93 (+0.19%) | Faltó para TP: $0.58
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 18:45:00 | Salida: 2026-05-23 20:30:00
+[SIMULADOR] ├─ Precios -> In: $84.66 | Out: $85.55 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $84.56 (+0.12%) | Faltó para TP: $0.79
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 15m...
+[SIMULADOR] CRITICAL ERROR: Fallo en extracción REST histórica BNBUSDT: 'close'
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 15m...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 12:00:00 | Salida: 2026-05-23 13:15:00
+[SIMULADOR] ├─ Precios -> In: $1.3245 | Out: $1.33 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.32 (+0.08%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.99
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 13:45:00 | Salida: 2026-05-23 15:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3326 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.14%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-23 16:45:00 | Salida: 2026-05-23 18:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3371 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.33 (+0.17%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-0.98
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-30 21:00:00 | Salida: 2026-05-30 22:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3492 | Out: $1.34 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.35 (+0.16%) | Faltó para TP: $0.01
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.60
+[SIMULADOR] Net PnL:              $-10.40 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    17
+[SIMULADOR] Win Rate:             17.65%
+[SIMULADOR] Winners / Losers:     3 / 14
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $1.49
+[SIMULADOR] Pérdida Bruta:        $11.89
+[SIMULADOR] Profit Factor:        0.125
+[SIMULADOR] Esperanza / Trade:    $-0.61
+[SIMULADOR] Maximum Drawdown:     2.08%
+[SIMULADOR] Avg Win / Avg Loss:   $0.50 / $0.85
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'

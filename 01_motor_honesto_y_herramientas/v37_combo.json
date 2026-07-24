@@ -1,0 +1,79 @@
+{
+ "exp": "combo",
+ "eq36_fuente": "v36_4y",
+ "ventana_comun": "2022-06-12 00:00:00 → 2026-06-11 00:00:00",
+ "correlacion_diaria": 0.669,
+ "correlacion_semanal": 0.735,
+ "v26_solo": {
+  "dd_mtm_max": 27.1,
+  "dd_90d": 17.4,
+  "cagr_pct": 23.25,
+  "por_año_mtm_pct": {
+   "2022": -8.45,
+   "2023": 43.39,
+   "2024": 27.41,
+   "2025": 22.4,
+   "2026": 12.64
+  },
+  "rolling_365d": {
+   "n_ventanas": 1096,
+   "mediana": 33.67,
+   "p10": -14.26,
+   "minimo": -25.45,
+   "maximo": 77.14,
+   "pct_ventanas_positivas": 86.7,
+   "pct_ventanas_sobre_12": 82.8,
+   "pct_ventanas_sobre_25": 72.3
+  },
+  "max_dias_bajo_agua": 453
+ },
+ "v36_solo": {
+  "dd_mtm_max": 17.7,
+  "dd_90d": 17.7,
+  "cagr_pct": 19.97,
+  "por_año_mtm_pct": {
+   "2022": 3.85,
+   "2023": 34.46,
+   "2024": 27.34,
+   "2025": 4.71,
+   "2026": 11.2
+  },
+  "rolling_365d": {
+   "n_ventanas": 1096,
+   "mediana": 22.54,
+   "p10": 6.91,
+   "minimo": -7.63,
+   "maximo": 63.33,
+   "pct_ventanas_positivas": 99.2,
+   "pct_ventanas_sobre_12": 75.4,
+   "pct_ventanas_sobre_25": 39.6
+  },
+  "max_dias_bajo_agua": 428
+ },
+ "combo_50_50": {
+  "dd_mtm_max": 16.7,
+  "dd_90d": 14.4,
+  "cagr_pct": 21.64,
+  "por_año_mtm_pct": {
+   "2022": -2.3,
+   "2023": 38.64,
+   "2024": 27.37,
+   "2025": 13.28,
+   "2026": 11.95
+  },
+  "rolling_365d": {
+   "n_ventanas": 1096,
+   "mediana": 30.89,
+   "p10": -2.49,
+   "minimo": -11.64,
+   "maximo": 69.69,
+   "pct_ventanas_positivas": 87.6,
+   "pct_ventanas_sobre_12": 79.9,
+   "pct_ventanas_sobre_25": 62.5
+  },
+  "max_dias_bajo_agua": 424
+ },
+ "pnl_pct_v26_en_ventana": 130.59,
+ "pnl_pct_v36_en_ventana": 107.03,
+ "pnl_pct_combo": 118.81
+}

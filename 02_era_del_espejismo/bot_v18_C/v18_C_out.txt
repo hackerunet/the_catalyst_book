@@ -1,0 +1,714 @@
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [ETHUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-5.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-01 20:00:00 | Salida: 2026-05-02 21:00:00
+[SIMULADOR] ├─ Precios -> In: $2283.87 | Out: $2336.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2282.40 (+0.06%) | Faltó para TP: $51.22
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] GANADOR: $2.64
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 01:00:00 | Salida: 2026-05-06 14:00:00
+[SIMULADOR] ├─ Precios -> In: $2350.48 | Out: $2354.86 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2422.52 (+3.06%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-7.46
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 22:00:00 | Salida: 2026-05-12 08:00:00
+[SIMULADOR] ├─ Precios -> In: $2372.96 | Out: $2283.14 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2381.88 (+0.38%) | Faltó para TP: $80.90
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 17:00:00 | Salida: 2026-05-22 19:00:00
+[SIMULADOR] ├─ Precios -> In: $2118.62 | Out: $2087.85 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2056.39 (+2.94%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-4.95
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-02 11:00:00 | Salida: 2026-05-02 21:00:00
+[SIMULADOR] ├─ Precios -> In: $83.64 | Out: $84.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.62 (+0.02%) | Faltó para TP: $0.90
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-4.90
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 10:00:00 | Salida: 2026-05-05 20:00:00
+[SIMULADOR] ├─ Precios -> In: $84.0 | Out: $86.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.51 (+0.58%) | Faltó para TP: $2.07
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-13 01:00:00 | Salida: 2026-05-13 12:00:00
+[SIMULADOR] ├─ Precios -> In: $95.13 | Out: $92.93 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $95.97 (+0.88%) | Faltó para TP: $1.36
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-4.80
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-14 14:00:00 | Salida: 2026-05-15 13:00:00
+[SIMULADOR] ├─ Precios -> In: $92.23 | Out: $89.29 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $93.64 (+1.53%) | Faltó para TP: $1.53
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $5.94
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 17:00:00 | Salida: 2026-05-23 07:00:00
+[SIMULADOR] ├─ Precios -> In: $86.6 | Out: $83.46 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $81.36 (+6.05%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BNBUSDT] ===
+[SIMULADOR] [LONG] GANADOR: $4.12
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 13:00:00 | Salida: 2026-05-10 20:00:00
+[SIMULADOR] ├─ Precios -> In: $651.49 | Out: $656.38 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $663.26 (+1.81%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-7.28
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-17 10:00:00 | Salida: 2026-05-17 23:00:00
+[SIMULADOR] ├─ Precios -> In: $655.15 | Out: $646.94 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $657.89 (+0.42%) | Faltó para TP: $5.47
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $7.08
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 09:00:00 | Salida: 2026-05-23 07:00:00
+[SIMULADOR] ├─ Precios -> In: $657.62 | Out: $642.64 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $635.00 (+3.44%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 10:00:00 | Salida: 2026-05-06 08:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3943 | Out: $1.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.39 (+0.48%) | Faltó para TP: $0.04
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] GANADOR: $5.05
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-08 06:00:00 | Salida: 2026-05-08 17:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3809 | Out: $1.40 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.41 (+2.10%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $4.96
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-27 21:00:00 | Salida: 2026-05-28 14:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3154 | Out: $1.30 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.27 (+3.69%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [ADAUSDT] ===
+[SIMULADOR] [LONG] GANADOR: $6.78
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 01:00:00 | Salida: 2026-05-06 08:00:00
+[SIMULADOR] ├─ Precios -> In: $0.2519 | Out: $0.26 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $0.27 (+8.10%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $7.31
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-25 22:00:00 | Salida: 2026-05-28 17:00:00
+[SIMULADOR] ├─ Precios -> In: $0.2425 | Out: $0.24 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $0.23 (+6.06%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [LINKUSDT] ===
+[SIMULADOR] [LONG] PERDEDOR: $-5.05
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 22:00:00 | Salida: 2026-05-12 11:00:00
+[SIMULADOR] ├─ Precios -> In: $10.722 | Out: $10.23 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $10.77 (+0.41%) | Faltó para TP: $0.45
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-5.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-14 14:00:00 | Salida: 2026-05-15 13:00:00
+[SIMULADOR] ├─ Precios -> In: $10.481 | Out: $10.03 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $10.77 (+2.75%) | Faltó para TP: $0.16
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-4.95
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-21 09:00:00 | Salida: 2026-05-22 11:00:00
+[SIMULADOR] ├─ Precios -> In: $9.612 | Out: $9.86 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $9.51 (+1.04%) | Faltó para TP: $0.15
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.61
+[SIMULADOR] Net PnL:              $-10.39 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    20
+[SIMULADOR] Win Rate:             45.00%
+[SIMULADOR] Winners / Losers:     9 / 11
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $48.71
+[SIMULADOR] Pérdida Bruta:        $59.09
+[SIMULADOR] Profit Factor:        0.824
+[SIMULADOR] Esperanza / Trade:    $-0.52
+[SIMULADOR] Maximum Drawdown:     4.90%
+[SIMULADOR] Avg Win / Avg Loss:   $5.41 / $5.37
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [ETHUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-5.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-01 20:00:00 | Salida: 2026-05-02 21:00:00
+[SIMULADOR] ├─ Precios -> In: $2283.87 | Out: $2336.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2282.40 (+0.06%) | Faltó para TP: $51.22
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] GANADOR: $2.64
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 01:00:00 | Salida: 2026-05-06 14:00:00
+[SIMULADOR] ├─ Precios -> In: $2350.48 | Out: $2354.86 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2422.52 (+3.06%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-7.46
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 22:00:00 | Salida: 2026-05-12 08:00:00
+[SIMULADOR] ├─ Precios -> In: $2372.96 | Out: $2283.14 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2381.88 (+0.38%) | Faltó para TP: $80.90
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 17:00:00 | Salida: 2026-05-22 19:00:00
+[SIMULADOR] ├─ Precios -> In: $2118.62 | Out: $2087.85 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2056.39 (+2.94%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-4.95
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-02 11:00:00 | Salida: 2026-05-02 21:00:00
+[SIMULADOR] ├─ Precios -> In: $83.64 | Out: $84.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.62 (+0.02%) | Faltó para TP: $0.90
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-4.90
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 10:00:00 | Salida: 2026-05-05 20:00:00
+[SIMULADOR] ├─ Precios -> In: $84.0 | Out: $86.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.51 (+0.58%) | Faltó para TP: $2.07
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-13 01:00:00 | Salida: 2026-05-13 12:00:00
+[SIMULADOR] ├─ Precios -> In: $95.13 | Out: $92.93 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $95.97 (+0.88%) | Faltó para TP: $1.36
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-4.80
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-14 14:00:00 | Salida: 2026-05-15 13:00:00
+[SIMULADOR] ├─ Precios -> In: $92.23 | Out: $89.29 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $93.64 (+1.53%) | Faltó para TP: $1.53
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $5.94
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 17:00:00 | Salida: 2026-05-23 07:00:00
+[SIMULADOR] ├─ Precios -> In: $86.6 | Out: $83.46 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $81.36 (+6.05%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BNBUSDT] ===
+[SIMULADOR] [LONG] GANADOR: $4.12
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 13:00:00 | Salida: 2026-05-10 20:00:00
+[SIMULADOR] ├─ Precios -> In: $651.49 | Out: $656.38 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $663.26 (+1.81%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-7.28
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-17 10:00:00 | Salida: 2026-05-17 23:00:00
+[SIMULADOR] ├─ Precios -> In: $655.15 | Out: $646.94 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $657.89 (+0.42%) | Faltó para TP: $5.47
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $7.08
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 09:00:00 | Salida: 2026-05-23 07:00:00
+[SIMULADOR] ├─ Precios -> In: $657.62 | Out: $642.64 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $635.00 (+3.44%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 10:00:00 | Salida: 2026-05-06 08:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3943 | Out: $1.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.39 (+0.48%) | Faltó para TP: $0.04
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] GANADOR: $5.05
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-08 06:00:00 | Salida: 2026-05-08 17:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3809 | Out: $1.40 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.41 (+2.10%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $4.96
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-27 21:00:00 | Salida: 2026-05-28 14:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3154 | Out: $1.30 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.27 (+3.69%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [ADAUSDT] ===
+[SIMULADOR] [LONG] GANADOR: $6.78
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 01:00:00 | Salida: 2026-05-06 08:00:00
+[SIMULADOR] ├─ Precios -> In: $0.2519 | Out: $0.26 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $0.27 (+8.10%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $7.31
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-25 22:00:00 | Salida: 2026-05-28 17:00:00
+[SIMULADOR] ├─ Precios -> In: $0.2425 | Out: $0.24 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $0.23 (+6.06%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [LINKUSDT] ===
+[SIMULADOR] [LONG] PERDEDOR: $-5.05
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 22:00:00 | Salida: 2026-05-12 11:00:00
+[SIMULADOR] ├─ Precios -> In: $10.722 | Out: $10.23 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $10.77 (+0.41%) | Faltó para TP: $0.45
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-5.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-14 14:00:00 | Salida: 2026-05-15 13:00:00
+[SIMULADOR] ├─ Precios -> In: $10.481 | Out: $10.03 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $10.77 (+2.75%) | Faltó para TP: $0.16
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-4.95
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-21 09:00:00 | Salida: 2026-05-22 11:00:00
+[SIMULADOR] ├─ Precios -> In: $9.612 | Out: $9.86 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $9.51 (+1.04%) | Faltó para TP: $0.15
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.61
+[SIMULADOR] Net PnL:              $-10.39 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    20
+[SIMULADOR] Win Rate:             45.00%
+[SIMULADOR] Winners / Losers:     9 / 11
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $48.71
+[SIMULADOR] Pérdida Bruta:        $59.09
+[SIMULADOR] Profit Factor:        0.824
+[SIMULADOR] Esperanza / Trade:    $-0.52
+[SIMULADOR] Maximum Drawdown:     4.90%
+[SIMULADOR] Avg Win / Avg Loss:   $5.41 / $5.37
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [ETHUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-5.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-01 20:00:00 | Salida: 2026-05-02 21:00:00
+[SIMULADOR] ├─ Precios -> In: $2283.87 | Out: $2336.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2282.40 (+0.06%) | Faltó para TP: $51.22
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] GANADOR: $2.64
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 01:00:00 | Salida: 2026-05-06 14:00:00
+[SIMULADOR] ├─ Precios -> In: $2350.48 | Out: $2354.86 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2422.52 (+3.06%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-7.46
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 22:00:00 | Salida: 2026-05-12 08:00:00
+[SIMULADOR] ├─ Precios -> In: $2372.96 | Out: $2283.14 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2381.88 (+0.38%) | Faltó para TP: $80.90
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 17:00:00 | Salida: 2026-05-22 19:00:00
+[SIMULADOR] ├─ Precios -> In: $2118.62 | Out: $2087.85 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2056.39 (+2.94%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-4.95
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-02 11:00:00 | Salida: 2026-05-02 21:00:00
+[SIMULADOR] ├─ Precios -> In: $83.64 | Out: $84.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.62 (+0.02%) | Faltó para TP: $0.90
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-4.90
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 10:00:00 | Salida: 2026-05-05 20:00:00
+[SIMULADOR] ├─ Precios -> In: $84.0 | Out: $86.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.51 (+0.58%) | Faltó para TP: $2.07
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-13 01:00:00 | Salida: 2026-05-13 12:00:00
+[SIMULADOR] ├─ Precios -> In: $95.13 | Out: $92.93 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $95.97 (+0.88%) | Faltó para TP: $1.36
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-4.80
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-14 14:00:00 | Salida: 2026-05-15 13:00:00
+[SIMULADOR] ├─ Precios -> In: $92.23 | Out: $89.29 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $93.64 (+1.53%) | Faltó para TP: $1.53
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $5.94
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 17:00:00 | Salida: 2026-05-23 07:00:00
+[SIMULADOR] ├─ Precios -> In: $86.6 | Out: $83.46 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $81.36 (+6.05%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BNBUSDT] ===
+[SIMULADOR] [LONG] GANADOR: $4.12
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 13:00:00 | Salida: 2026-05-10 20:00:00
+[SIMULADOR] ├─ Precios -> In: $651.49 | Out: $656.38 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $663.26 (+1.81%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-7.28
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-17 10:00:00 | Salida: 2026-05-17 23:00:00
+[SIMULADOR] ├─ Precios -> In: $655.15 | Out: $646.94 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $657.89 (+0.42%) | Faltó para TP: $5.47
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $7.08
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 09:00:00 | Salida: 2026-05-23 07:00:00
+[SIMULADOR] ├─ Precios -> In: $657.62 | Out: $642.64 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $635.00 (+3.44%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 10:00:00 | Salida: 2026-05-06 08:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3943 | Out: $1.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.39 (+0.48%) | Faltó para TP: $0.04
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] GANADOR: $5.05
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-08 06:00:00 | Salida: 2026-05-08 17:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3809 | Out: $1.40 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.41 (+2.10%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $4.96
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-27 21:00:00 | Salida: 2026-05-28 14:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3154 | Out: $1.30 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.27 (+3.69%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [ADAUSDT] ===
+[SIMULADOR] [LONG] GANADOR: $6.78
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 01:00:00 | Salida: 2026-05-06 08:00:00
+[SIMULADOR] ├─ Precios -> In: $0.2519 | Out: $0.26 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $0.27 (+8.10%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $7.31
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-25 22:00:00 | Salida: 2026-05-28 17:00:00
+[SIMULADOR] ├─ Precios -> In: $0.2425 | Out: $0.24 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $0.23 (+6.06%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [LINKUSDT] ===
+[SIMULADOR] [LONG] PERDEDOR: $-5.05
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 22:00:00 | Salida: 2026-05-12 11:00:00
+[SIMULADOR] ├─ Precios -> In: $10.722 | Out: $10.23 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $10.77 (+0.41%) | Faltó para TP: $0.45
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-5.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-14 14:00:00 | Salida: 2026-05-15 13:00:00
+[SIMULADOR] ├─ Precios -> In: $10.481 | Out: $10.03 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $10.77 (+2.75%) | Faltó para TP: $0.16
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-4.95
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-21 09:00:00 | Salida: 2026-05-22 11:00:00
+[SIMULADOR] ├─ Precios -> In: $9.612 | Out: $9.86 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $9.51 (+1.04%) | Faltó para TP: $0.15
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.61
+[SIMULADOR] Net PnL:              $-10.39 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    20
+[SIMULADOR] Win Rate:             45.00%
+[SIMULADOR] Winners / Losers:     9 / 11
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $48.71
+[SIMULADOR] Pérdida Bruta:        $59.09
+[SIMULADOR] Profit Factor:        0.824
+[SIMULADOR] Esperanza / Trade:    $-0.52
+[SIMULADOR] Maximum Drawdown:     4.90%
+[SIMULADOR] Avg Win / Avg Loss:   $5.41 / $5.37
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...
+[SIMULADOR] STATUS: Iniciando Motor Multiplexado V2 [MODO LIMIT / MAKER]...
+[SIMULADOR] INFO: Reglas de precisión de Binance cargadas dinámicamente:
+[SIMULADOR] ETHUSDT -> Qty: 3 decimales | Precio: 2 decimales
+[SIMULADOR] XRPUSDT -> Qty: 1 decimales | Precio: 4 decimales
+[SIMULADOR] LINKUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] ADAUSDT -> Qty: 0 decimales | Precio: 5 decimales
+[SIMULADOR] BNBUSDT -> Qty: 2 decimales | Precio: 3 decimales
+[SIMULADOR] SOLUSDT -> Qty: 2 decimales | Precio: 4 decimales
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ETHUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para SOLUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para BNBUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para XRPUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para ADAUSDT.
+[SIMULADOR] INFO: Apalancamiento a 5x configurado para LINKUSDT.
+[SIMULADOR] INFO: Sincronizando datos históricos para ETHUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [ETHUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-5.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-01 20:00:00 | Salida: 2026-05-02 21:00:00
+[SIMULADOR] ├─ Precios -> In: $2283.87 | Out: $2336.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2282.40 (+0.06%) | Faltó para TP: $51.22
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] GANADOR: $2.64
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 01:00:00 | Salida: 2026-05-06 14:00:00
+[SIMULADOR] ├─ Precios -> In: $2350.48 | Out: $2354.86 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2422.52 (+3.06%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-7.46
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 22:00:00 | Salida: 2026-05-12 08:00:00
+[SIMULADOR] ├─ Precios -> In: $2372.96 | Out: $2283.14 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2381.88 (+0.38%) | Faltó para TP: $80.90
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 17:00:00 | Salida: 2026-05-22 19:00:00
+[SIMULADOR] ├─ Precios -> In: $2118.62 | Out: $2087.85 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $2056.39 (+2.94%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para SOLUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [SOLUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-4.95
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-02 11:00:00 | Salida: 2026-05-02 21:00:00
+[SIMULADOR] ├─ Precios -> In: $83.64 | Out: $84.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.62 (+0.02%) | Faltó para TP: $0.90
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-4.90
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 10:00:00 | Salida: 2026-05-05 20:00:00
+[SIMULADOR] ├─ Precios -> In: $84.0 | Out: $86.56 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $83.51 (+0.58%) | Faltó para TP: $2.07
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-13 01:00:00 | Salida: 2026-05-13 12:00:00
+[SIMULADOR] ├─ Precios -> In: $95.13 | Out: $92.93 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $95.97 (+0.88%) | Faltó para TP: $1.36
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-4.80
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-14 14:00:00 | Salida: 2026-05-15 13:00:00
+[SIMULADOR] ├─ Precios -> In: $92.23 | Out: $89.29 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $93.64 (+1.53%) | Faltó para TP: $1.53
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $5.94
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 17:00:00 | Salida: 2026-05-23 07:00:00
+[SIMULADOR] ├─ Precios -> In: $86.6 | Out: $83.46 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $81.36 (+6.05%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para BNBUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [BNBUSDT] ===
+[SIMULADOR] [LONG] GANADOR: $4.12
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 13:00:00 | Salida: 2026-05-10 20:00:00
+[SIMULADOR] ├─ Precios -> In: $651.49 | Out: $656.38 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $663.26 (+1.81%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-7.28
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-17 10:00:00 | Salida: 2026-05-17 23:00:00
+[SIMULADOR] ├─ Precios -> In: $655.15 | Out: $646.94 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $657.89 (+0.42%) | Faltó para TP: $5.47
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $7.08
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-22 09:00:00 | Salida: 2026-05-23 07:00:00
+[SIMULADOR] ├─ Precios -> In: $657.62 | Out: $642.64 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $635.00 (+3.44%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para XRPUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [XRPUSDT] ===
+[SIMULADOR] [SHORT] PERDEDOR: $-4.85
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 10:00:00 | Salida: 2026-05-06 08:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3943 | Out: $1.44 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.39 (+0.48%) | Faltó para TP: $0.04
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] GANADOR: $5.05
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-08 06:00:00 | Salida: 2026-05-08 17:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3809 | Out: $1.40 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.41 (+2.10%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 80%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $4.96
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-27 21:00:00 | Salida: 2026-05-28 14:00:00
+[SIMULADOR] ├─ Precios -> In: $1.3154 | Out: $1.30 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $1.27 (+3.69%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para ADAUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [ADAUSDT] ===
+[SIMULADOR] [LONG] GANADOR: $6.78
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-04 01:00:00 | Salida: 2026-05-06 08:00:00
+[SIMULADOR] ├─ Precios -> In: $0.2519 | Out: $0.26 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $0.27 (+8.10%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] GANADOR: $7.31
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-25 22:00:00 | Salida: 2026-05-28 17:00:00
+[SIMULADOR] ├─ Precios -> In: $0.2425 | Out: $0.24 | Razón: TRAILING STOP
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $0.23 (+6.06%) | Faltó para TP: $0.00
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Sincronizando datos históricos para LINKUSDT 1h...
+[SIMULADOR] === AUDITORÍA FORENSE DE TRADES [LINKUSDT] ===
+[SIMULADOR] [LONG] PERDEDOR: $-5.05
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-10 22:00:00 | Salida: 2026-05-12 11:00:00
+[SIMULADOR] ├─ Precios -> In: $10.722 | Out: $10.23 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $10.77 (+0.41%) | Faltó para TP: $0.45
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [LONG] PERDEDOR: $-5.00
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-14 14:00:00 | Salida: 2026-05-15 13:00:00
+[SIMULADOR] ├─ Precios -> In: $10.481 | Out: $10.03 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $10.77 (+2.75%) | Faltó para TP: $0.16
+[SIMULADOR] ├─ Convicción: 85%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] [SHORT] PERDEDOR: $-4.95
+[SIMULADOR] ├─ Tiempos -> Entrada: 2026-05-21 09:00:00 | Salida: 2026-05-22 11:00:00
+[SIMULADOR] ├─ Precios -> In: $9.612 | Out: $9.86 | Razón: STOP LOSS (Riesgo Asumido)
+[SIMULADOR] ├─ Recorrido-> Max Alcance: $9.51 (+1.04%) | Faltó para TP: $0.15
+[SIMULADOR] ├─ Convicción: 90%
+[SIMULADOR] └─ Desglose -> Tendencia: 0% | MR: 0% | Z-Score: 0
+[SIMULADOR] ===============================================
+[SIMULADOR] INFO: Caché histórico completado para todos los símbolos.
+[SIMULADOR] ========================================
+[SIMULADOR] 📊 REPORTE DE TELEMETRÍA CUANTITATIVA
+[SIMULADOR] ========================================
+[SIMULADOR] Capital Inicial:      $500.00
+[SIMULADOR] Capital Final:        $489.61
+[SIMULADOR] Net PnL:              $-10.39 (-2.08%)
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Total Operaciones:    20
+[SIMULADOR] Win Rate:             45.00%
+[SIMULADOR] Winners / Losers:     9 / 11
+[SIMULADOR] ----------------------------------------
+[SIMULADOR] Beneficio Bruto:      $48.71
+[SIMULADOR] Pérdida Bruta:        $59.09
+[SIMULADOR] Profit Factor:        0.824
+[SIMULADOR] Esperanza / Trade:    $-0.52
+[SIMULADOR] Maximum Drawdown:     4.90%
+[SIMULADOR] Avg Win / Avg Loss:   $5.41 / $5.37
+[SIMULADOR] ========================================
+[SIMULADOR] Dash is running on http://127.0.0.1:8050/
+[SIMULADOR] * Serving Flask app 'simulador_institucional_upgraded'
+[SIMULADOR] * Debug mode: off
+[SIMULADOR] Address already in use
+[SIMULADOR] Port 8050 is in use by another program. Either identify and stop that program, or start the server with a different port.
+MESA DE DINERO ERROR: Fallo al despachar Telegram: [Errno 2] No such file or directory: 'openclaw'
+MESA DE DINERO: Iniciando proceso de simulador_institucional_upgraded.py...

@@ -1,0 +1,83 @@
+{
+ "modo": "continuo",
+ "pnl_pct": 30.28,
+ "pnl_usd": 151.41,
+ "trades": 822,
+ "wr": 26.52,
+ "pf": 1.177,
+ "bh_pct": -56.64,
+ "max_drawdown_pct": 20.3,
+ "percentil_vs_null": 92.0,
+ "null_mediana_pct": 12.63,
+ "por_motivo_salida": {
+  "FIN DE VENTANA (administrativo)": {
+   "trades": 6,
+   "win_rate": 100.0,
+   "pnl": 84.07
+  },
+  "FLIP DE TENDENCIA (alineación opuesta)": {
+   "trades": 623,
+   "win_rate": 34.0,
+   "pnl": 479.58
+  },
+  "STOP DE PROTECCIÓN": {
+   "trades": 193,
+   "win_rate": 0.0,
+   "pnl": -412.23
+  }
+ },
+ "por_simbolo": {
+  "ATOMUSDT": {
+   "trades": 141,
+   "win_rate": 26.2,
+   "pnl": 3.87
+  },
+  "AVAXUSDT": {
+   "trades": 143,
+   "win_rate": 26.6,
+   "pnl": 13.4
+  },
+  "BTCUSDT": {
+   "trades": 119,
+   "win_rate": 38.7,
+   "pnl": 53.74
+  },
+  "DOGEUSDT": {
+   "trades": 113,
+   "win_rate": 31.0,
+   "pnl": 96.65
+  },
+  "DOTUSDT": {
+   "trades": 139,
+   "win_rate": 24.5,
+   "pnl": 14.38
+  },
+  "LTCUSDT": {
+   "trades": 167,
+   "win_rate": 16.8,
+   "pnl": -30.63
+  }
+ },
+ "config": {
+  "symbols": [
+   "BTCUSDT",
+   "DOGEUSDT",
+   "AVAXUSDT",
+   "DOTUSDT",
+   "LTCUSDT",
+   "ATOMUSDT"
+  ],
+  "interval": "15m",
+  "entry_mode": "patrones",
+  "exit_mode": "tendencia",
+  "trailing_stop_tendencia": false,
+  "trailing_arm_r": 2.0,
+  "trailing_distance_r": 1.0,
+  "fee": 0.0002,
+  "slippage": 0.0002,
+  "years": 2.0,
+  "end": "2026-06-11",
+  "mc": 100,
+  "seed": 42
+ }
+}

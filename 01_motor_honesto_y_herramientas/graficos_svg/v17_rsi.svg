@@ -1,0 +1,131 @@
+<svg viewBox="0 0 720 380" role="img" aria-label="V17 — RSI Momentum (ESPEJISMO)" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;border:1px solid #d9d5c9;border-radius:8px">
+<style>
+.cbg{fill:#FCFBF8} .cgrid{stroke:#E4E1D6;stroke-width:1} .up{fill:#2E7A50;stroke:#2E7A50}
+.dn{fill:#A6392E;stroke:#A6392E} .wu{stroke:#2E7A50;stroke-width:1.4} .wd{stroke:#A6392E;stroke-width:1.4}
+.e1{stroke:#C77D2E;stroke-width:2;fill:none} .e2{stroke:#7C8288;stroke-width:2;fill:none;stroke-dasharray:5 3}
+.bb{stroke:#6E7AD6;stroke-width:1.3;fill:none;stroke-dasharray:3 3} .lvl{stroke:#7C8288;stroke-width:1;stroke-dasharray:4 3}
+.txt{fill:#1B1F23;font-family:ui-monospace,Menlo,monospace} .txf{fill:#7C8288;font-family:ui-monospace,Menlo,monospace}
+.mk-in{fill:#2E7A50} .mk-out{fill:#A6392E} .mkl{fill:#1B1F23;font-family:ui-monospace,Menlo,monospace;font-weight:bold}
+.title{fill:#1B1F23;font-family:ui-monospace,Menlo,monospace;font-weight:bold} .badge-g{fill:#DEEBE2;stroke:#2E7A50}
+.badge-r{fill:#F2DDD9;stroke:#A6392E} .bt-g{fill:#2E7A50} .bt-r{fill:#A6392E}
+@media (prefers-color-scheme:dark){
+ .cbg{fill:#1A1D20} .cgrid{stroke:#2A2D31} .up{fill:#5FB981;stroke:#5FB981} .dn{fill:#E2837A;stroke:#E2837A}
+ .wu{stroke:#5FB981} .wd{stroke:#E2837A} .e1{stroke:#DFA054} .e2{stroke:#9EA2AD} .bb{stroke:#8B95E0}
+ .lvl{stroke:#8B8880} .txt{fill:#E9E6DD} .txf{fill:#8B8880} .mk-in{fill:#5FB981} .mk-out{fill:#E2837A}
+ .mkl{fill:#E9E6DD} .badge-g{fill:#1C2E23;stroke:#5FB981} .badge-r{fill:#35201E;stroke:#E2837A}
+ .bt-g{fill:#5FB981} .bt-r{fill:#E2837A}}
+</style>
+<rect class="cbg" x="0" y="0" width="720" height="380"/>
+<text class="title" x="360.0" y="24" text-anchor="middle" font-size="15">V17 — RSI Momentum (ESPEJISMO)</text>
+<text class="txf" x="360.0" y="42" text-anchor="middle" font-size="11">Vender en RSI>70 asumiendo reversión — pero en una tendencia real el precio SIGUE</text>
+<line class="cgrid" x1="46" y1="334.0" x2="706" y2="334.0"/>
+<text class="txf" x="6" y="337.0" font-size="9.5">13.42</text>
+<line class="cgrid" x1="46" y1="194.0" x2="706" y2="194.0"/>
+<text class="txf" x="6" y="197.0" font-size="9.5">19.31</text>
+<line class="cgrid" x1="46" y1="54.0" x2="706" y2="54.0"/>
+<text class="txf" x="6" y="57.0" font-size="9.5">25.2</text>
+<line class="wu" x1="52.6" y1="321.9" x2="52.6" y2="334.0"/>
+<rect class="up" x="48.5" y="323.6" width="8.2" height="8.6"/>
+<line class="wd" x1="65.8" y1="322.9" x2="65.8" y2="333.5"/>
+<rect class="dn" x="61.7" y="323.6" width="8.2" height="7.8"/>
+<line class="wu" x1="79.0" y1="284.9" x2="79.0" y2="332.0"/>
+<rect class="up" x="74.9" y="309.2" width="8.2" height="22.3"/>
+<line class="wu" x1="92.2" y1="254.2" x2="92.2" y2="314.2"/>
+<rect class="up" x="88.1" y="271.6" width="8.2" height="37.7"/>
+<line class="wu" x1="105.4" y1="259.8" x2="105.4" y2="274.5"/>
+<rect class="up" x="101.3" y="264.5" width="8.2" height="7.1"/>
+<line class="wu" x1="118.6" y1="252.9" x2="118.6" y2="270.7"/>
+<rect class="up" x="114.5" y="264.1" width="8.2" height="1.2"/>
+<line class="wu" x1="131.8" y1="237.1" x2="131.8" y2="272.7"/>
+<rect class="up" x="127.7" y="245.9" width="8.2" height="18.3"/>
+<line class="wd" x1="145.0" y1="240.3" x2="145.0" y2="267.2"/>
+<rect class="dn" x="140.9" y="245.9" width="8.2" height="20.0"/>
+<line class="wd" x1="158.2" y1="256.5" x2="158.2" y2="272.4"/>
+<rect class="dn" x="154.1" y="265.9" width="8.2" height="1.2"/>
+<line class="wd" x1="171.4" y1="258.8" x2="171.4" y2="283.0"/>
+<rect class="dn" x="167.3" y="266.7" width="8.2" height="6.8"/>
+<line class="wd" x1="184.6" y1="265.6" x2="184.6" y2="276.0"/>
+<rect class="dn" x="180.5" y="273.5" width="8.2" height="1.8"/>
+<line class="wu" x1="197.8" y1="264.4" x2="197.8" y2="277.0"/>
+<rect class="up" x="193.7" y="272.2" width="8.2" height="3.0"/>
+<line class="wu" x1="211.0" y1="261.1" x2="211.0" y2="277.4"/>
+<rect class="up" x="206.9" y="267.2" width="8.2" height="5.0"/>
+<line class="wu" x1="224.2" y1="261.7" x2="224.2" y2="272.3"/>
+<rect class="up" x="220.1" y="263.7" width="8.2" height="3.5"/>
+<line class="wd" x1="237.4" y1="255.7" x2="237.4" y2="269.7"/>
+<rect class="dn" x="233.3" y="263.7" width="8.2" height="4.5"/>
+<line class="wd" x1="250.6" y1="265.1" x2="250.6" y2="276.2"/>
+<rect class="dn" x="246.5" y="268.2" width="8.2" height="4.4"/>
+<line class="wu" x1="263.8" y1="269.2" x2="263.8" y2="277.2"/>
+<rect class="up" x="259.7" y="270.5" width="8.2" height="2.1"/>
+<line class="wd" x1="277.0" y1="269.7" x2="277.0" y2="274.3"/>
+<rect class="dn" x="272.9" y="270.5" width="8.2" height="1.7"/>
+<line class="wd" x1="290.2" y1="272.2" x2="290.2" y2="289.3"/>
+<rect class="dn" x="286.1" y="272.2" width="8.2" height="14.5"/>
+<line class="wu" x1="303.4" y1="269.7" x2="303.4" y2="290.1"/>
+<rect class="up" x="299.3" y="272.8" width="8.2" height="13.9"/>
+<line class="wu" x1="316.6" y1="258.5" x2="316.6" y2="279.1"/>
+<rect class="up" x="312.5" y="264.3" width="8.2" height="8.4"/>
+<line class="wu" x1="329.8" y1="249.0" x2="329.8" y2="269.7"/>
+<rect class="up" x="325.7" y="262.8" width="8.2" height="1.5"/>
+<line class="wd" x1="343.0" y1="261.0" x2="343.0" y2="269.1"/>
+<rect class="dn" x="338.9" y="262.8" width="8.2" height="4.4"/>
+<line class="wd" x1="356.2" y1="267.0" x2="356.2" y2="275.3"/>
+<rect class="dn" x="352.1" y="267.1" width="8.2" height="4.1"/>
+<line class="wd" x1="369.4" y1="260.9" x2="369.4" y2="287.0"/>
+<rect class="dn" x="365.3" y="271.2" width="8.2" height="2.8"/>
+<line class="wu" x1="382.6" y1="253.9" x2="382.6" y2="275.4"/>
+<rect class="up" x="378.5" y="260.1" width="8.2" height="13.9"/>
+<line class="wu" x1="395.8" y1="256.1" x2="395.8" y2="265.8"/>
+<rect class="up" x="391.7" y="258.8" width="8.2" height="1.2"/>
+<line class="wu" x1="409.0" y1="252.8" x2="409.0" y2="267.1"/>
+<rect class="up" x="404.9" y="256.1" width="8.2" height="2.7"/>
+<line class="wu" x1="422.2" y1="240.9" x2="422.2" y2="256.4"/>
+<rect class="up" x="418.1" y="251.6" width="8.2" height="4.6"/>
+<line class="wd" x1="435.4" y1="246.7" x2="435.4" y2="260.4"/>
+<rect class="dn" x="431.3" y="251.6" width="8.2" height="5.8"/>
+<line class="wu" x1="448.6" y1="252.5" x2="448.6" y2="262.3"/>
+<rect class="up" x="444.5" y="254.0" width="8.2" height="3.4"/>
+<line class="wu" x1="461.8" y1="243.7" x2="461.8" y2="261.1"/>
+<rect class="up" x="457.7" y="244.7" width="8.2" height="9.2"/>
+<line class="wu" x1="475.0" y1="209.5" x2="475.0" y2="248.6"/>
+<rect class="up" x="470.9" y="218.3" width="8.2" height="26.5"/>
+<line class="wu" x1="488.2" y1="109.2" x2="488.2" y2="220.6"/>
+<rect class="up" x="484.1" y="130.9" width="8.2" height="87.4"/>
+<line class="wu" x1="501.4" y1="63.5" x2="501.4" y2="134.8"/>
+<rect class="up" x="497.3" y="92.6" width="8.2" height="38.4"/>
+<line class="wd" x1="514.6" y1="84.0" x2="514.6" y2="146.1"/>
+<rect class="dn" x="510.5" y="92.6" width="8.2" height="28.1"/>
+<line class="wd" x1="527.8" y1="90.1" x2="527.8" y2="136.5"/>
+<rect class="dn" x="523.7" y="120.7" width="8.2" height="1.4"/>
+<line class="wu" x1="541.0" y1="96.1" x2="541.0" y2="126.7"/>
+<rect class="up" x="536.9" y="104.6" width="8.2" height="17.5"/>
+<line class="wu" x1="554.2" y1="62.4" x2="554.2" y2="118.9"/>
+<rect class="up" x="550.1" y="75.8" width="8.2" height="28.7"/>
+<line class="wd" x1="567.4" y1="54.0" x2="567.4" y2="118.2"/>
+<rect class="dn" x="563.3" y="75.8" width="8.2" height="28.4"/>
+<line class="wd" x1="580.6" y1="101.6" x2="580.6" y2="126.8"/>
+<rect class="dn" x="576.5" y="104.2" width="8.2" height="10.2"/>
+<line class="wu" x1="593.8" y1="103.4" x2="593.8" y2="130.1"/>
+<rect class="up" x="589.7" y="108.6" width="8.2" height="5.9"/>
+<line class="wu" x1="607.0" y1="84.7" x2="607.0" y2="113.0"/>
+<rect class="up" x="602.9" y="89.8" width="8.2" height="18.8"/>
+<line class="wd" x1="620.2" y1="87.0" x2="620.2" y2="107.7"/>
+<rect class="dn" x="616.1" y="89.8" width="8.2" height="7.3"/>
+<line class="wd" x1="633.4" y1="95.9" x2="633.4" y2="118.8"/>
+<rect class="dn" x="629.3" y="97.1" width="8.2" height="11.6"/>
+<line class="wu" x1="646.6" y1="75.9" x2="646.6" y2="119.4"/>
+<rect class="up" x="642.5" y="100.6" width="8.2" height="8.0"/>
+<line class="wu" x1="659.8" y1="54.5" x2="659.8" y2="105.6"/>
+<rect class="up" x="655.7" y="76.0" width="8.2" height="24.6"/>
+<line class="wd" x1="673.0" y1="75.7" x2="673.0" y2="109.3"/>
+<rect class="dn" x="668.9" y="75.9" width="8.2" height="20.9"/>
+<line class="wd" x1="686.2" y1="93.1" x2="686.2" y2="124.6"/>
+<rect class="dn" x="682.1" y="96.8" width="8.2" height="7.6"/>
+<line class="wu" x1="699.4" y1="85.9" x2="699.4" y2="109.6"/>
+<rect class="up" x="695.3" y="92.9" width="8.2" height="11.4"/>
+<polygon class="mk-in" points="250.6,283.2 244.6,294.2 256.6,294.2"/>
+<text class="mkl" x="250.6" y="308.2" text-anchor="middle" font-size="10">vende RSI>70 ✗</text>
+<rect class="badge-r" x="52" y="58" width="210" height="22" rx="4"/>
+<text class="bt-r" x="60" y="73" font-size="11" font-weight="bold">La señal falla: sigue subiendo</text>
+</svg>

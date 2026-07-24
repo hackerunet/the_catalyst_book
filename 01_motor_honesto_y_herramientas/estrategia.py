@@ -1,0 +1,589 @@
+"""
+estrategia.py — Cerebro de decisión PURO (sin I/O, sin órdenes, sin Telegram).
+
+Tanto el ejecutor en vivo (ejecutor.py) como el backtest (backtest.py) llaman
+EXACTAMENTE estas funciones — un solo code path de decisión (lección del motor
+honesto V24: backtest y vivo nunca deben divergir en lógica).
+
+Decisiones:
+- tendencia_actual(df)        → 'LONG' | 'SHORT' | 'LATERAL'
+- evaluar_entrada(df)         → señal dict | None (sin qty: eso es del ejecutor)
+- evaluar_salida(t, precio)   → dict {cerrar, nuevo_peak, nuevo_decil} (no muta t)
+- prob_reversion(df, tipo)    → 5-95%
+"""
+import pandas as pd
+
+import config
+from indicadores import atr_diario, momentum_diario
+from patrones import detectar_patrones, PATRONES_DE_MECHA
+
+
+def tendencia_actual(df):
+    """
+    Régimen 1h: precio vs EMA50 vs EMA200 + fuerza ADX >= umbral.
+    Momentum diario (cierre 1D vs EMA20 diaria) debe COINCIDIR.
+    'LATERAL' = no operar (único momento de abstención del bot).
+    """
+    if len(df) < config.WARMUP_CANDLES:
+        return 'LATERAL'
+    c = df['close'].iloc[-1]
+    e50, e200 = df['EMA_50'].iloc[-1], df['EMA_200'].iloc[-1]
+    adx = df['ADX'].iloc[-1]
+    if pd.isna(e50) or pd.isna(e200) or adx < config.ADX_LATERAL_MAX:
+        return 'LATERAL'
+    diario = momentum_diario(df)
+    if c > e50 > e200 and diario == 'LONG':
+        return 'LONG'
+    if c < e50 < e200 and diario == 'SHORT':
+        return 'SHORT'
+    return 'LATERAL'
+
+
+def diagnostico_entrada(df):
+    """
+    Diagnóstico PURO (sin efectos) — reporta en texto corto por qué
+    evaluar_entrada() retornaría None en este cierre de vela.
+    Solo para logging; no afecta decisiones. Retorna string con el motivo.
+    """
+    if len(df) < config.WARMUP_CANDLES:
+        return f"warmup ({len(df)}/{config.WARMUP_CANDLES} velas)"
+
+    c = df['close'].iloc[-1]
+    e50 = df['EMA_50'].iloc[-1]
+    e200 = df['EMA_200'].iloc[-1]
+    adx = df['ADX'].iloc[-1]
+    diario = momentum_diario(df)
+
+    # Desglose de por qué tendencia == LATERAL
+    if pd.isna(e50) or pd.isna(e200):
+        return "EMA NaN (datos insuficientes)"
+    if adx < config.ADX_LATERAL_MAX:
+        # Reportar la estructura aunque ADX sea bajo
+        if c > e50 > e200:
+            estructura = "alcista"
+        elif c < e50 < e200:
+            estructura = "bajista"
+        else:
+            estructura = "mixta"
+        return f"LATERAL: ADX={adx:.1f}<{config.ADX_LATERAL_MAX} | estructura {estructura} | diario={diario}"
+
+    tendencia = tendencia_actual(df)
+    if tendencia == 'LATERAL':
+        # ADX ok pero estructura no alineada
+        pos_e50 = "C>E50" if c > e50 else "C<E50"
+        pos_e200 = "E50>E200" if e50 > e200 else "E50<E200"
+        return f"LATERAL: ADX={adx:.1f} OK pero {pos_e50}, {pos_e200}, diario={diario} — sin alineación"
+
+    modo = getattr(config, 'ENTRY_MODE', 'patrones')
+    if modo == 'cruce':
+        tend_prev = tendencia_actual(df.iloc[:-1])
+        if tend_prev == tendencia:
+            return f"tendencia={tendencia} (ADX={adx:.1f}) pero NO es cruce (ya era {tend_prev} antes)"
+
+    elif modo == 'patrones':
+        patrones = detectar_patrones(df)
+        if any(p['tipo'] == 'incertidumbre' for p in patrones):
+            return f"tendencia={tendencia} (ADX={adx:.1f}) pero DOJI detectado → incertidumbre"
+        atr = df['ATR'].iloc[-1]
+        if pd.isna(atr) or atr <= 0:
+            return f"tendencia={tendencia} pero ATR inválido"
+        alineados = [p for p in patrones if p['dir'] == tendencia]
+        if not alineados:
+            nombres = [p['nombre'] for p in patrones] if patrones else ['ninguno']
+            return (f"tendencia={tendencia} (ADX={adx:.1f}) pero sin patrón alineado "
+                    f"(detectados: {', '.join(nombres)})")
+        # Hay patrón alineado — ¿por qué no pasó?
+        rechazos = []
+        for p in alineados:
+            es_mecha = p['nombre'] in PATRONES_DE_MECHA
+            if es_mecha:
+                rango = float(df['high'].iloc[-1] - df['low'].iloc[-1])
+                if rango < atr * config.WICK_RANGE_MIN_ATR_FRACTION:
+                    rechazos.append(f"{p['nombre']}: rango {rango:.4f} < {atr * config.WICK_RANGE_MIN_ATR_FRACTION:.4f}")
+                    continue
+            else:
+                body = df['Body'].iloc[-1]
+                if body < atr * config.BODY_MIN_ATR_FRACTION:
+                    rechazos.append(f"{p['nombre']}: body {body:.4f} < {atr * config.BODY_MIN_ATR_FRACTION:.4f}")
+                    continue
+            vma = df['Volume_MA'].iloc[-1]
+            vol = df['volume'].iloc[-1]
+            if pd.isna(vma) or vma <= 0:
+                rechazos.append(f"{p['nombre']}: Volume_MA inválido")
+                continue
+            if p['tipo'] == 'continuacion' and vol <= vma:
+                rechazos.append(f"{p['nombre']}: vol {vol:.0f} <= VMA {vma:.0f}")
+            elif p['tipo'] != 'continuacion' and vol < vma * config.REVERSAL_VOL_FLOOR:
+                rechazos.append(f"{p['nombre']}: vol {vol:.0f} < {vma * config.REVERSAL_VOL_FLOOR:.0f} (floor)")
+        if rechazos:
+            return f"tendencia={tendencia} (ADX={adx:.1f}) patrones rechazados: {'; '.join(rechazos[:3])}"
+        # Si llegó aquí, el patrón pasó body/vol — debe ser RSI
+        rsi = df['RSI'].iloc[-1]
+        if tendencia == 'LONG' and rsi > config.RSI_MAX_LONG:
+            return f"tendencia=LONG pero RSI={rsi:.1f} > {config.RSI_MAX_LONG}"
+        if tendencia == 'SHORT' and rsi < config.RSI_MIN_SHORT:
+            return f"tendencia=SHORT pero RSI={rsi:.1f} < {config.RSI_MIN_SHORT}"
+
+    # Si no caímos en ningún rechazo conocido, la señal debería existir
+    return f"tendencia={tendencia} (ADX={adx:.1f}) — señal debería pasar (revisar lógica)"
+
+
+
+def prob_reversion(df, tipo_posicion):
+    """
+    Probabilidad heurística (5-95%) de reversión inmediata contra la posición.
+    Variables: RSI extremo, MACD_Hist perdiendo fuerza 2 velas, patrón de
+    reversión OPUESTO, sobre-extensión vs EMA200, doji presente.
+    """
+    try:
+        prob = 15.0
+        rsi = df['RSI'].iloc[-1]
+        if tipo_posicion == 'LONG' and rsi >= 70:
+            prob += min((rsi - 70) * 2.5, 25)
+        if tipo_posicion == 'SHORT' and rsi <= 30:
+            prob += min((30 - rsi) * 2.5, 25)
+
+        mh = df['MACD_Hist']
+        if tipo_posicion == 'LONG' and mh.iloc[-1] < mh.iloc[-2] < mh.iloc[-3]:
+            prob += 20
+        if tipo_posicion == 'SHORT' and mh.iloc[-1] > mh.iloc[-2] > mh.iloc[-3]:
+            prob += 20
+
+        opuesto = 'SHORT' if tipo_posicion == 'LONG' else 'LONG'
+        for pat in detectar_patrones(df):
+            if pat['dir'] == opuesto and pat['tipo'] == 'reversion':
+                prob += 25
+                break
+            if pat['tipo'] == 'incertidumbre':
+                prob += 10
+
+        e200 = df['EMA_200'].iloc[-1]
+        if not pd.isna(e200) and e200 > 0:
+            dist = abs(df['close'].iloc[-1] - e200) / e200 * 100
+            if dist > 5:
+                prob += min((dist - 5) * 2, 15)
+
+        return round(min(max(prob, 5), 95), 1)
+    except Exception:
+        return 50.0
+
+
+def evaluar_entrada(df, rs_basket=None, rs_symbol=None, reentrada_armada=False):
+    """
+    Señal de entrada al cierre de vela, o None.
+    Tendencia clara + 1 vela-patrón de confirmación + volumen (continuación)
+    + guardas RSI + veto doji. Retorna dict SIN qty (el sizing es del ejecutor).
+
+    rs_basket/rs_symbol (opcionales, TEST B): dict {sym: ROC} del basket al
+    timestamp + símbolo propio — solo se usan si config.FILTRO_RS está activo.
+    reentrada_armada (V27-A): el MOTOR determinó que el símbolo está re-armado
+    (stop previo + alineación persistente + cooldown cumplido) — en modo cruce
+    se permite entrar sin exigir el flip.
+    """
+    if len(df) < config.WARMUP_CANDLES:
+        return None
+
+    # Tarea #41 (b): filtro de sesión horaria — bloquear entradas nuevas cuya
+    # vela de señal cierra dentro de la ventana UTC de menor liquidez
+    # (config.FILTRO_SESION_HORAS_BLOQUEADAS). Gate temprano: no cambia sizing/
+    # salidas, solo veta la apertura. Default None = inactivo (bot vivo intacto).
+    horas_bloq = getattr(config, 'FILTRO_SESION_HORAS_BLOQUEADAS', None)
+    if horas_bloq and pd.Timestamp(df['time'].iloc[-1]).hour in horas_bloq:
+        return None
+
+    modo = getattr(config, 'ENTRY_MODE', 'patrones')
+    patrones = []
+
+    if modo == 'rsi_reversion':
+        # V29-A (2026-06-20): RSI como señal PRIMARIA aislada — bypassa
+        # tendencia_actual() por completo (la tesis de reversión es contraria
+        # a exigir tendencia). Cruce de RSI por 30/70, sin filtro de régimen.
+        rsi_prev, rsi_now = df['RSI'].iloc[-2], df['RSI'].iloc[-1]
+        if rsi_prev < config.RSI_OVERSOLD <= rsi_now:
+            tendencia = 'LONG'
+        elif rsi_prev > config.RSI_OVERBOUGHT >= rsi_now:
+            tendencia = 'SHORT'
+        else:
+            return None
+        etiqueta = (f"RSI cruce {'sobreventa' if tendencia == 'LONG' else 'sobrecompra'} "
+                    f"({rsi_prev:.1f}→{rsi_now:.1f})")
+        return _armar_senial(df, tendencia, etiqueta, patrones, rs_basket, rs_symbol)
+
+    # V38/V39/V40 (2026-07-03): re-test honesto de las estrategias categoría-3.
+    # Cada una tiene su PROPIO filtro de tendencia (EMA200 / EMA84-200), así que
+    # bypassa el gate tendencia_actual() del harness (que es otra cosa:
+    # EMA50/200+ADX+momentum diario). La señal viene verbatim del código
+    # original; el sizing/TP/SL y la salida los pone el harness (igual que todo
+    # ENTRY_MODE) — así la única variable es la ENTRADA, y comparar escalera vs
+    # tendencia como salida es limpio. Las guardas RSI/squeeze/RS de _armar_senial
+    # NO aplican aquí (las estrategias ya tienen sus propias guardas RSI); se
+    # pasan iguales por consistencia pero con RSI_MAX/MIN por defecto no morderán.
+    # V68 (auditoría de robustez): Donchian PURO — la ruptura define la dirección,
+    # SIN exigir tendencia alineada (holgura pre-registrada). Default OFF.
+    if modo == 'donchian' and getattr(config, 'DONCHIAN_PURO', False):
+        _n = getattr(config, 'DONCHIAN_N', 20)
+        if len(df) < _n + 2:
+            return None
+        if df['close'].iloc[-1] > df['high'].iloc[-(_n + 1):-1].max():
+            _dir = 'LONG'
+        elif df['close'].iloc[-1] < df['low'].iloc[-(_n + 1):-1].min():
+            _dir = 'SHORT'
+        else:
+            return None
+        return _armar_senial(df, _dir, f'Donchian {_n} PURO (sin tendencia)',
+                             patrones, rs_basket, rs_symbol)
+
+    import estrategias_tempranas as _et
+    if modo in _et.DISPATCH:
+        direccion, etiqueta = _et.DISPATCH[modo](df)
+        if direccion is None:
+            return None
+        return _armar_senial(df, direccion, etiqueta, [], rs_basket, rs_symbol,
+                             saltar_guardas_rsi=True)
+
+    tendencia = tendencia_actual(df)
+    if tendencia == 'LATERAL':
+        return None
+
+    if modo == 'patrones':
+        patrones = detectar_patrones(df)
+        if any(p['tipo'] == 'incertidumbre' for p in patrones):
+            return None  # doji → incertidumbre → no entrar
+
+        # Convicción mínima de la vela disparadora (lección V22 body>=ATR; caso
+        # 2002d074: una micro-vela de 0.42x ATR "confirmó" un evening star).
+        # Patrones de CUERPO: Body >= 0.5x ATR. Patrones de MECHA (hammer etc.,
+        # cuerpo pequeño por definición): rango total >= 0.75x ATR — misma barra
+        # de convicción, métrica fiel a la geometría de cada patrón.
+        atr = df['ATR'].iloc[-1]
+        if pd.isna(atr) or atr <= 0:
+            return None
+        body_ok = df['Body'].iloc[-1] >= atr * config.BODY_MIN_ATR_FRACTION
+        rango_ok = float(df['high'].iloc[-1] - df['low'].iloc[-1]) \
+            >= atr * config.WICK_RANGE_MIN_ATR_FRACTION
+
+        confirmacion = None
+        vma = df['Volume_MA'].iloc[-1]
+        vol = df['volume'].iloc[-1]
+        vma_valida = (not pd.isna(vma)) and vma > 0
+        for p in patrones:
+            if p['dir'] == tendencia:
+                # Tarea #41 (a): excluir "Marubozu bajista" como confirmación
+                # (default OFF; solo walkforward.py lo activa). Si es el único
+                # patrón alineado, no habrá entrada; si hay otro, se usa ese.
+                if getattr(config, 'EXCLUIR_MARUBOZU_BAJISTA', False) \
+                        and p['nombre'] == 'Marubozu bajista':
+                    continue
+                if not (rango_ok if p['nombre'] in PATRONES_DE_MECHA else body_ok):
+                    continue
+                if p['tipo'] == 'continuacion':  # continuación exige participación
+                    vol_ok = vma_valida and vol > vma
+                else:
+                    # reversión/confirmación: piso mínimo de participación
+                    # (caso 2002d074: evening star con 8.5% del volumen promedio)
+                    vol_ok = vma_valida and vol >= vma * config.REVERSAL_VOL_FLOOR
+                if vol_ok:
+                    confirmacion = p
+                    break
+        if not confirmacion:
+            return None
+        # V30 (2026-06-21): filtro de momentum SOLO para confirmaciones tipo
+        # 'reversion' (no 'continuacion', que ya exige vol>promedio por
+        # definición) — bloquear si MACD_Hist está del lado contrario al
+        # trade. Sin magnitud, solo signo. Default OFF.
+        if (getattr(config, 'FILTRO_MACD_REVERSION', False)
+                and confirmacion['tipo'] == 'reversion'):
+            macd_hist = df['MACD_Hist'].iloc[-1]
+            if tendencia == 'SHORT' and macd_hist > 0:
+                return None
+            if tendencia == 'LONG' and macd_hist < 0:
+                return None
+        etiqueta = f"{confirmacion['nombre']} ({confirmacion['tipo']})"
+    elif modo == 'cruce':
+        # Estrategia clásica EMA50/200 SIN capa de patrones: entrar SOLO en la
+        # vela donde la tendencia SE VUELVE alineada (cruce/flip) — o, con
+        # V27-A re-armado (post-stop, alineación viva), en cualquier vela.
+        if reentrada_armada:
+            etiqueta = 'Re-entrada post-stop (tendencia vigente)'
+        else:
+            if tendencia_actual(df.iloc[:-1]) == tendencia:
+                return None  # ya estaba alineada — no es el cruce
+            etiqueta = 'Cruce de tendencia (sin patrones)'
+    elif modo == 'donchian':
+        # TEST D: ruptura del canal Donchian de N velas (clásico Turtle; 20 en
+        # el pre-registro original) con la tendencia ya alineada. V68: N por
+        # config.DONCHIAN_N (default 20 = canónico exacto).
+        _n = getattr(config, 'DONCHIAN_N', 20)
+        if len(df) < _n + 2:
+            return None
+        if tendencia == 'LONG':
+            if not df['close'].iloc[-1] > df['high'].iloc[-(_n + 1):-1].max():
+                return None
+        else:
+            if not df['close'].iloc[-1] < df['low'].iloc[-(_n + 1):-1].min():
+                return None
+        etiqueta = f'Ruptura Donchian {_n} (tendencia alineada)'
+    else:  # 'continua' — tendencia alineada, sin patrones, cualquier vela
+        etiqueta = 'Tendencia alineada (sin patrones)'
+
+    return _armar_senial(df, tendencia, etiqueta, patrones, rs_basket, rs_symbol)
+
+
+def _armar_senial(df, tendencia, etiqueta, patrones, rs_basket=None, rs_symbol=None,
+                  saltar_guardas_rsi=False):
+    """Filtros compartidos (squeeze/RS/exhaución RSI) + sizing TP/SL — cola
+    común de evaluar_entrada() para todos los ENTRY_MODE, incluido
+    'rsi_reversion' (V29-A), que llega aquí sin haber pasado por
+    tendencia_actual().
+
+    saltar_guardas_rsi (V38/V39/V40): las estrategias tempranas ya aplican sus
+    propias guardas RSI dentro de su señal — se saltea la del harness para no
+    imponer una condición extra que no estaba en el código original."""
+    # TEST A (2026-06-11): filtro de régimen por squeeze TTM — un cruce/entrada
+    # dentro de compresión de volatilidad (BB dentro de Keltner) es whipsaw
+    # probable. Default OFF (config.FILTRO_SQUEEZE); el bot en vivo no cambia.
+    # RESULTADO: RECHAZADO (mediana −1.21→−1.51, pctl 88→80; el squeeze no
+    # discrimina el chop 4h en cripto) — queda solo como referencia histórica.
+    if getattr(config, 'FILTRO_SQUEEZE', False) and 'Squeeze_On' in df.columns \
+            and bool(df['Squeeze_On'].iloc[-1]):
+        return None
+
+    # TEST B (2026-06-11): fuerza relativa del basket — LONG solo en la mitad
+    # SUPERIOR del ranking de ROC a 20 días entre los símbolos; SHORT solo en
+    # la mitad INFERIOR. Default OFF (config.FILTRO_RS); bot en vivo no cambia.
+    if getattr(config, 'FILTRO_RS', False) and rs_basket and rs_symbol in rs_basket \
+            and len(rs_basket) >= 4:
+        orden = sorted(rs_basket, key=rs_basket.get, reverse=True)  # líder primero
+        pos = orden.index(rs_symbol)
+        mitad = len(orden) / 2
+        if tendencia == 'LONG' and pos >= mitad:
+            return None  # rezagado: no comprar
+        if tendencia == 'SHORT' and pos < mitad:
+            return None  # líder: no shortear
+
+    if not saltar_guardas_rsi:
+        rsi = df['RSI'].iloc[-1]
+        if tendencia == 'LONG' and rsi > config.RSI_MAX_LONG:
+            return None
+        if tendencia == 'SHORT' and rsi < config.RSI_MIN_SHORT:
+            return None
+
+    precio = float(df['close'].iloc[-1])
+    atr_d = atr_diario(df)
+    dist_tp = atr_d * config.TP_DAILY_ATR_MULT if atr_d else precio * 0.03
+    dist_tp = min(max(dist_tp, precio * config.TP_MIN_PCT), precio * config.TP_MAX_PCT)
+    dist_sl = dist_tp * config.SL_FRACTION_OF_TP
+
+    if tendencia == 'LONG':
+        tp, sl = precio + dist_tp, precio - dist_sl
+    else:
+        tp, sl = precio - dist_tp, precio + dist_sl
+
+    return {
+        'type': tendencia,
+        'entry_price': precio,
+        'tp': tp,
+        'sl': sl,
+        'dist_sl': dist_sl,
+        'pattern': etiqueta,
+        'patrones_detectados': patrones,
+        'prob_reversion': prob_reversion(df, tendencia),
+    }
+
+
+def precio_scale_out(t):
+    """
+    V37-C (2026-07-03): nivel del scale-out parcial — entrada ± SCALE_OUT_R ×
+    dist_sl (+1R por defecto). Regla PURA: el motor decide si el extremo
+    favorable de la vela lo alcanzó y ejecuta la realización parcial. Solo
+    aplica con EXIT_MODE='tendencia' y config.SCALE_OUT_TENDENCIA=True
+    (default OFF — el bot vivo no cambia).
+    """
+    r = getattr(config, 'SCALE_OUT_R', 1.0) * t['dist_sl']
+    return t['entry_price'] + r if t['type'] == 'LONG' else t['entry_price'] - r
+
+
+def precio_replica(t):
+    """
+    P1 (2026-07-04): precio correspondiente a REPLICA_ARM_PROGRESS de avance
+    (mismas unidades que calcular_progreso — % de la distancia hacia t['tp'],
+    la referencia de riesgo del trade, aunque EXIT_MODE='tendencia' no la use
+    como salida). Regla PURA: el motor decide si el extremo favorable de la
+    vela lo alcanzó y ejecuta el cierre+réplica.
+    """
+    recorrido = (t['tp'] - t['entry_price']) if t['type'] == 'LONG' else (t['entry_price'] - t['tp'])
+    avance = getattr(config, 'REPLICA_ARM_PROGRESS', 150.0) / 100.0 * recorrido
+    return t['entry_price'] + avance if t['type'] == 'LONG' else t['entry_price'] - avance
+
+
+def salida_por_flip(tendencia_ahora, tipo_posicion):
+    """
+    TEST C (EXIT_MODE='tendencia'): cerrar cuando la alineación completa se
+    invierte — el sistema entraría del lado opuesto ("stop and reverse"
+    clásico, cero parámetros). LATERAL no cierra (solo el flip confirmado).
+    """
+    opuesto = 'SHORT' if tipo_posicion == 'LONG' else 'LONG'
+    return tendencia_ahora == opuesto
+
+
+def salida_por_apagado_climax(t, row, tendencia_ahora=None):
+    """
+    V71 (2026-07-17) — PURA salvo por el estado que guarda en `t` (la máquina de
+    2 estados vive en el trade, igual que `velas_lateral_consec` de P1/P2).
+    Devuelve el motivo de cierre (str) o None.
+
+    Mecanismo: ARMA cuando el RSI cierra >70 en la dirección del trade; DISPARA
+    cuando el RSI cierra de vuelta <=70. Sale cuando el clímax SE APAGA, no
+    cuando ocurre (esa era V58, rechazada).
+
+    Dos variantes, un flag cada una (nunca las dos):
+      CLIMAX_FADE_EXIT_TENDENCIA (V71-A): activo desde el inicio.
+      CLIMAX_FADE_FUNNEL (V71-B): activo SOLO tras round-trip + pico nuevo — el
+        flip manda en la primera pierna; el RSI manda en la segunda.
+
+    Causal: usa el RSI de la vela YA cerrada. `t['peak_progress']` debe estar
+    actualizado ANTES de llamar (el llamador lo hace).
+    """
+    fade_a = getattr(config, 'CLIMAX_FADE_EXIT_TENDENCIA', False)
+    fade_b = getattr(config, 'CLIMAX_FADE_FUNNEL', False)
+    if not (fade_a or fade_b):
+        return None
+
+    # --- V71-B: máquina de estados del funnel ---
+    if fade_b:
+        pico = t.get('peak_progress', 0.0)
+        # el adverso de la vela (pesimista): ¿tocó negativo real?
+        adverso = row['low'] if t['type'] == 'LONG' else row['high']
+        prog_adv = calcular_progreso(t, adverso)
+        # 1) round-trip: picó fuerte y volvió a NEGATIVO
+        if not t.get('rt_hecho') and pico >= getattr(config, 'FUNNEL_RT_MIN_PICO', 50.0) \
+                and prog_adv < 0:
+            t['rt_hecho'] = True
+            t['rt_pico'] = pico
+        # 2) creció por ENCIMA del pico del round-trip -> el funnel se activa
+        if t.get('rt_hecho') and not t.get('funnel_on') and pico > t.get('rt_pico', 0.0):
+            t['funnel_on'] = True
+
+    activo = fade_a or t.get('funnel_on', False)
+    if not activo:
+        return None
+
+    rsi = row.get('RSI')
+    if rsi is None or pd.isna(rsi):
+        return None
+    umbral = getattr(config, 'CLIMAX_RSI', 70.0)
+    rsi_dir = rsi if t['type'] == 'LONG' else 100.0 - rsi
+
+    if not t.get('fade_armado'):
+        if rsi_dir > umbral:
+            t['fade_armado'] = True
+        return None
+    if rsi_dir <= umbral:
+        return f"APAGADO DE CLIMAX (RSI vuelve bajo {umbral:.0f})"
+    return None
+
+
+def calcular_progreso(t, precio):
+    """% de avance del precio hacia el TP (0-100+). Negativo si va en contra."""
+    if t['type'] == 'LONG':
+        recorrido = t['tp'] - t['entry_price']
+        avance = precio - t['entry_price']
+    else:
+        recorrido = t['entry_price'] - t['tp']
+        avance = t['entry_price'] - precio
+    if recorrido <= 0:
+        return 0.0
+    return avance / recorrido * 100.0
+
+
+def evaluar_salida(t, precio, ts=None):
+    """
+    PURA — no muta el trade. Dado el estado actual del trade y un precio,
+    retorna {'cerrar': motivo|None, 'nuevo_peak': float|None, 'nuevo_decil': int|None}.
+
+    Reglas (spec V25):
+      1. STOP de protección.
+      2. OBJETIVO 100% del profit calculado.
+      3. Asegurar cada 10% de avance (decil).
+      4. Cierre inmediato si el avance retrocede 8 pts desde el decil asegurado.
+
+    ts (V32, opcional): timestamp de la vela/tick actual — solo se usa para el
+    time-stop (EXIT_MODE='escalera', config.TIME_STOP_HOURS). Sin ts, el
+    time-stop queda inerte (no puede medir tiempo transcurrido).
+    """
+    res = {'cerrar': None, 'nuevo_peak': None, 'nuevo_decil': None,
+           'nuevo_sl': None, 'nuevo_peak_fav': None}
+
+    if t['type'] == 'LONG' and precio <= t['sl']:
+        res['cerrar'] = 'STOP DE PROTECCIÓN'
+        return res
+    if t['type'] == 'SHORT' and precio >= t['sl']:
+        res['cerrar'] = 'STOP DE PROTECCIÓN'
+        return res
+
+    prog = calcular_progreso(t, precio)
+    if prog > t.get('peak_progress', 0):
+        res['nuevo_peak'] = prog
+
+    # TEST C / V26 (EXIT_MODE='tendencia'): sin TP ni escalera — la única
+    # salida automática a nivel de precio es el STOP (arriba); el flip de
+    # alineación lo evalúa el motor al CIERRE de vela (salida_por_flip, que
+    # necesita el df completo). El peak queda como telemetría.
+    if getattr(config, 'EXIT_MODE', 'escalera') == 'tendencia':
+        # V31: trailing stop una vez superada TRAILING_ARM_R de excursión
+        # favorable (en unidades de R = dist_sl) — ratchetea el stop a
+        # peak - TRAILING_DISTANCE_R, NUNCA se afloja. Antes de armarse el
+        # stop sigue estático (protege el perfil WR bajo/ganador grande de
+        # los trades que aún no despegan). Default OFF.
+        if getattr(config, 'TRAILING_STOP_TENDENCIA', False):
+            fav = (precio - t['entry_price']) if t['type'] == 'LONG' \
+                else (t['entry_price'] - precio)
+            peak_fav = max(fav, t.get('peak_fav', 0.0))
+            if peak_fav > t.get('peak_fav', 0.0):
+                res['nuevo_peak_fav'] = peak_fav
+            dist_sl = t['dist_sl']
+            if peak_fav >= config.TRAILING_ARM_R * dist_sl:
+                trail_dist = config.TRAILING_DISTANCE_R * dist_sl
+                if t['type'] == 'LONG':
+                    candidato = t['entry_price'] + peak_fav - trail_dist
+                    if candidato > t['sl']:
+                        res['nuevo_sl'] = candidato
+                else:
+                    candidato = t['entry_price'] - peak_fav + trail_dist
+                    if candidato < t['sl']:
+                        res['nuevo_sl'] = candidato
+        return res
+
+    # V32: time-stop — si tras TIME_STOP_HOURS desde la entrada el trade NUNCA
+    # alcanzó LOCK_STEP_PCT de progreso, cerrar a mercado (capital muerto:
+    # diagnóstico forense mostró stops con duración mediana 16.5h, máx 109h,
+    # que jamás progresan). Solo afecta trades que aún no llegaron a decil 10
+    # — los que sí progresaron siguen su curso normal de escalera/reversa.
+    time_stop_h = getattr(config, 'TIME_STOP_HOURS', None)
+    if time_stop_h and ts is not None:
+        peak_efectivo = max(t.get('peak_progress', 0), prog)
+        if peak_efectivo < config.LOCK_STEP_PCT:
+            entry_t = t.get('entry_time')
+            if entry_t is not None:
+                elapsed_h = (pd.Timestamp(ts) - pd.Timestamp(entry_t)).total_seconds() / 3600
+                if elapsed_h >= time_stop_h:
+                    res['cerrar'] = 'TIME-STOP (sin progreso)'
+                    return res
+
+    if prog >= 100:
+        res['cerrar'] = 'OBJETIVO 100% ALCANZADO'
+        return res
+
+    decil = int(prog // config.LOCK_STEP_PCT) * config.LOCK_STEP_PCT
+    if decil > t.get('locked_decile', 0) and decil >= config.LOCK_STEP_PCT:
+        res['nuevo_decil'] = decil
+
+    # El cierre-por-reversa solo se ARMA desde PULLBACK_ARM_DECILE (20%):
+    # hallazgo forense 2026-06-11 — con piso 10−8 = 2% del recorrido el cierre
+    # quedaba DEBAJO del breakeven de costos y "aseguraba" pérdidas pequeñas.
+    # Los deciles se siguen asegurando/notificando desde 10% (spec req. 4).
+    locked = max(t.get('locked_decile', 0), res['nuevo_decil'] or 0)
+    if locked >= config.PULLBACK_ARM_DECILE and prog < locked - config.PULLBACK_CLOSE_PCT:
+        res['cerrar'] = (f'REVERSA: retrocedió {config.PULLBACK_CLOSE_PCT}pts '
+                         f'desde {locked}% — profit asegurado')
+    return res

@@ -1,0 +1,123 @@
+{
+ "modo": "continuo",
+ "pnl_pct": -68.11,
+ "pnl_usd": -340.54,
+ "trades": 3379,
+ "wr": 59.49,
+ "pf": 0.68,
+ "bh_pct": 92.34,
+ "max_drawdown_pct": 68.4,
+ "percentil_vs_null": 76.0,
+ "null_mediana_pct": -69.78,
+ "por_motivo_salida": {
+  "FIN DE VENTANA (administrativo)": {
+   "trades": 1,
+   "win_rate": 0.0,
+   "pnl": -0.07
+  },
+  "OBJETIVO 100% ALCANZADO": {
+   "trades": 206,
+   "win_rate": 100.0,
+   "pnl": 274.56
+  },
+  "REVERSA: retrocedió 8pts desde 20% — profit asegurado": {
+   "trades": 868,
+   "win_rate": 68.3,
+   "pnl": 11.96
+  },
+  "REVERSA: retrocedió 8pts desde 30% — profit asegurado": {
+   "trades": 484,
+   "win_rate": 86.8,
+   "pnl": 61.09
+  },
+  "REVERSA: retrocedió 8pts desde 40% — profit asegurado": {
+   "trades": 353,
+   "win_rate": 94.6,
+   "pnl": 91.85
+  },
+  "REVERSA: retrocedió 8pts desde 50% — profit asegurado": {
+   "trades": 199,
+   "win_rate": 97.0,
+   "pnl": 75.56
+  },
+  "REVERSA: retrocedió 8pts desde 60% — profit asegurado": {
+   "trades": 139,
+   "win_rate": 97.8,
+   "pnl": 66.47
+  },
+  "REVERSA: retrocedió 8pts desde 70% — profit asegurado": {
+   "trades": 85,
+   "win_rate": 95.3,
+   "pnl": 50.04
+  },
+  "REVERSA: retrocedió 8pts desde 80% — profit asegurado": {
+   "trades": 36,
+   "win_rate": 100.0,
+   "pnl": 25.9
+  },
+  "REVERSA: retrocedió 8pts desde 90% — profit asegurado": {
+   "trades": 11,
+   "win_rate": 100.0,
+   "pnl": 10.28
+  },
+  "STOP DE PROTECCIÓN": {
+   "trades": 997,
+   "win_rate": 0.0,
+   "pnl": -1008.19
+  }
+ },
+ "por_simbolo": {
+  "ADAUSDT": {
+   "trades": 574,
+   "win_rate": 58.9,
+   "pnl": -61.81
+  },
+  "BNBUSDT": {
+   "trades": 538,
+   "win_rate": 58.9,
+   "pnl": -67.23
+  },
+  "ETHUSDT": {
+   "trades": 517,
+   "win_rate": 57.4,
+   "pnl": -74.45
+  },
+  "LINKUSDT": {
+   "trades": 594,
+   "win_rate": 60.4,
+   "pnl": -39.24
+  },
+  "SOLUSDT": {
+   "trades": 620,
+   "win_rate": 61.6,
+   "pnl": -47.18
+  },
+  "XRPUSDT": {
+   "trades": 536,
+   "win_rate": 59.1,
+   "pnl": -50.64
+  }
+ },
+ "config": {
+  "symbols": [
+   "ETHUSDT",
+   "SOLUSDT",
+   "BNBUSDT",
+   "XRPUSDT",
+   "ADAUSDT",
+   "LINKUSDT"
+  ],
+  "interval": "1h",
+  "entry_mode": "patrones",
+  "exit_mode": "escalera",
+  "trailing_stop_tendencia": false,
+  "trailing_arm_r": 2.0,
+  "trailing_distance_r": 1.0,
+  "fee": 0.0002,
+  "slippage": 0.0002,
+  "years": 3.0,
+  "end": "2026-06-11",
+  "mc": 50,
+  "seed": 42
+ }
+}

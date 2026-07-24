@@ -1,0 +1,41 @@
+# Dockerfile.sinapsis — imagen DEDICADA de Sinapsis-lateral (forward test testnet).
+# Idéntica a Dockerfile.cloud salvo el entrypoint: aquí sólo arranca sinapsis_lateral
+# (no V26/V36). El código de todos los bots viaja en la imagen (bot_alpha_portfolio
+# completo), pero el entrypoint sólo lanza Sinapsis, y su config fuerza TESTNET.
+FROM python:3.13-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    ca-certificates \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Usuario sin privilegios (no-root), igual que la imagen principal
+RUN groupadd -r botgroup && useradd -m -r -g botgroup -s /bin/bash botrunner
+
+WORKDIR /app
+
+COPY requirements-cloud.txt /app/
+RUN pip install --no-cache-dir -r requirements-cloud.txt
+
+COPY .env /app/.env
+COPY bot_alpha_portfolio /app/bot_alpha_portfolio/
+COPY state_sync.py /app/state_sync.py
+
+# Entrypoint DEDICADO de Sinapsis (sólo lanza sinapsis_lateral + su state_sync)
+COPY entrypoint_sinapsis.sh /app/entrypoint_sinapsis.sh
+RUN chmod +x /app/entrypoint_sinapsis.sh
+
+RUN chown -R botrunner:botgroup /app \
+    && chown -R botrunner:botgroup /home/botrunner
+# .env legible sólo por botrunner (defensa en profundidad; además son llaves de
+# TESTNET, sin valor real — pero se endurece igual).
+RUN chmod 600 /app/.env
+
+USER botrunner
+
+# Sin EXPOSE: cero puertos. Sólo salida (Binance WS/REST + Telegram polling).
+ENTRYPOINT ["/app/entrypoint_sinapsis.sh"]

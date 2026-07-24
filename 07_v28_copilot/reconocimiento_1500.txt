@@ -1,0 +1,108 @@
+==============================================================================
+RECONOCIMIENTO V28 — SIN filtro de volatilidad
+==============================================================================
+INFO: descargando 1500 velas 1h de ETHUSDT...
+INFO: descargando 1500 velas 1h de SOLUSDT...
+INFO: descargando 1500 velas 1h de BNBUSDT...
+INFO: descargando 1500 velas 1h de XRPUSDT...
+INFO: descargando 1500 velas 1h de ADAUSDT...
+INFO: descargando 1500 velas 1h de LINKUSDT...
+INFO: simulando 1290 timestamps x 6 símbolos...
+  ... 200/1290 (0 trades)
+  ... 400/1290 (10 trades)
+  ... 600/1290 (25 trades)
+  ... 800/1290 (36 trades)
+  ... 1000/1290 (47 trades)
+  ... 1200/1290 (69 trades)
+
+Señales: 75 | ventana 2026-04-18 07:00:00 → 2026-06-11 00:00:00
+
+--- OPORTUNIDAD DE ENTRADA (antes del SL; peak por cierres de vela, conservador) ---
+  alcanza +0.5R         :   51/75 =  68.0%   ← barra pre-reg: ≥50%
+  alcanza +1R           :   43/75 =  57.3%   ← barra pre-reg: ≥30%
+  alcanza +1.5R         :   35/75 =  46.7%
+  alcanza +2R (objetivo):   34/75 =  45.3%
+  SL sin llegar ni al 10%: 20/75 = 26.7% (el 'wrong almost immediately')
+  tiempo al pico (señales ≥+0.5R): mediana 32h | p90 92h
+
+--- CALIBRACIÓN prob_reversion (estados prog≥20; retroceso = −20pts o STOP en ≤6 velas) ---
+  prob <30   : n=  772 | P(retroceso) = 20.1%
+  prob 30-45 : n=  547 | P(retroceso) = 17.2%
+  prob 45-60 : n=  147 | P(retroceso) = 15.6%
+  prob >=60  : n=   52 | P(retroceso) = 19.2%
+  MONOTÓNICA: NO ✗ — mostrar como score heurístico
+
+--- POR PATRÓN DISPARADOR (n, % ≥+0.5R, % ≥+1R, peak mediano) ---
+  Engulfing bajista (reversion)                n= 13 | ≥0.5R  76.9% | ≥1R  69.2% | peak med 100%
+  Marubozu bajista (continuacion)              n= 10 | ≥0.5R  80.0% | ≥1R  60.0% | peak med 72%
+  Tweezer top (confirmacion)                   n=  6 | ≥0.5R  33.3% | ≥1R  33.3% | peak med 6%
+  Evening star (reversion)                     n=  6 | ≥0.5R  66.7% | ≥1R  66.7% | peak med 100%
+  Three black crows (continuacion)             n=  5 | ≥0.5R  60.0% | ≥1R  20.0% | peak med 29%
+  Morning star (reversion)                     n=  5 | ≥0.5R  80.0% | ≥1R  80.0% | peak med 100%
+  Marubozu alcista (continuacion)              n=  5 | ≥0.5R  20.0% | ≥1R  20.0% | peak med 0%
+  Tweezer bottom (confirmacion)                n=  4 | ≥0.5R  75.0% | ≥1R  50.0% | peak med 66%
+  Shooting star (reversion)                    n=  4 | ≥0.5R  50.0% | ≥1R  50.0% | peak med 100%
+  Hanging man (reversion)                      n=  3 | ≥0.5R  66.7% | ≥1R   0.0% | peak med 41%
+  Hammer (reversion)                           n=  3 | ≥0.5R  66.7% | ≥1R  66.7% | peak med 100%
+  Engulfing alcista (reversion)                n=  3 | ≥0.5R  66.7% | ≥1R  66.7% | peak med 100%
+  Harami bajista (confirmacion)                n=  3 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 100%
+  Inverted hammer (reversion)                  n=  2 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 67%
+  Three white soldiers (continuacion)          n=  1 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 100%
+  Harami alcista (confirmacion)                n=  1 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 66%
+  Dark cloud cover (reversion)                 n=  1 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 100%
+
+[contexto, NO KPI] PnL si todo se cerrara mecánicamente en SL/2R: +10.04% | WR 50.67% | PF 1.76
+
+==============================================================================
+RECONOCIMIENTO V28 — CON filtro de volatilidad (percentil ATR ≥ 60.0)
+==============================================================================
+INFO: descargando 1500 velas 1h de ETHUSDT...
+INFO: descargando 1500 velas 1h de SOLUSDT...
+INFO: descargando 1500 velas 1h de BNBUSDT...
+INFO: descargando 1500 velas 1h de XRPUSDT...
+INFO: descargando 1500 velas 1h de ADAUSDT...
+INFO: descargando 1500 velas 1h de LINKUSDT...
+INFO: simulando 1290 timestamps x 6 símbolos...
+  ... 200/1290 (0 trades)
+  ... 400/1290 (11 trades)
+  ... 600/1290 (23 trades)
+  ... 800/1290 (31 trades)
+  ... 1000/1290 (39 trades)
+  ... 1200/1290 (61 trades)
+
+Señales: 61 | ventana 2026-04-18 07:00:00 → 2026-06-11 00:00:00
+
+--- OPORTUNIDAD DE ENTRADA (antes del SL; peak por cierres de vela, conservador) ---
+  alcanza +0.5R         :   41/61 =  67.2%   ← barra pre-reg: ≥50%
+  alcanza +1R           :   40/61 =  65.6%   ← barra pre-reg: ≥30%
+  alcanza +1.5R         :   32/61 =  52.5%
+  alcanza +2R (objetivo):   31/61 =  50.8%
+  SL sin llegar ni al 10%: 19/61 = 31.1% (el 'wrong almost immediately')
+  tiempo al pico (señales ≥+0.5R): mediana 35h | p90 112h
+
+--- CALIBRACIÓN prob_reversion (estados prog≥20; retroceso = −20pts o STOP en ≤6 velas) ---
+  prob <30   : n=  598 | P(retroceso) = 21.1%
+  prob 30-45 : n=  429 | P(retroceso) = 20.0%
+  prob 45-60 : n=  138 | P(retroceso) = 18.8%
+  prob >=60  : n=   40 | P(retroceso) = 25.0%
+  MONOTÓNICA: NO ✗ — mostrar como score heurístico
+
+--- POR PATRÓN DISPARADOR (n, % ≥+0.5R, % ≥+1R, peak mediano) ---
+  Engulfing bajista (reversion)                n= 13 | ≥0.5R  69.2% | ≥1R  69.2% | peak med 100%
+  Marubozu bajista (continuacion)              n=  7 | ≥0.5R  71.4% | ≥1R  71.4% | peak med 72%
+  Three black crows (continuacion)             n=  5 | ≥0.5R  80.0% | ≥1R  60.0% | peak med 100%
+  Tweezer top (confirmacion)                   n=  5 | ≥0.5R  20.0% | ≥1R  20.0% | peak med 4%
+  Morning star (reversion)                     n=  5 | ≥0.5R  80.0% | ≥1R  80.0% | peak med 100%
+  Marubozu alcista (continuacion)              n=  5 | ≥0.5R  20.0% | ≥1R  20.0% | peak med 0%
+  Evening star (reversion)                     n=  4 | ≥0.5R  75.0% | ≥1R  75.0% | peak med 100%
+  Hammer (reversion)                           n=  3 | ≥0.5R  66.7% | ≥1R  66.7% | peak med 100%
+  Harami bajista (confirmacion)                n=  3 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 100%
+  Inverted hammer (reversion)                  n=  2 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 67%
+  Tweezer bottom (confirmacion)                n=  2 | ≥0.5R  50.0% | ≥1R  50.0% | peak med 100%
+  Engulfing alcista (reversion)                n=  2 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 100%
+  Shooting star (reversion)                    n=  2 | ≥0.5R  50.0% | ≥1R  50.0% | peak med 100%
+  Three white soldiers (continuacion)          n=  1 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 100%
+  Harami alcista (confirmacion)                n=  1 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 66%
+  Dark cloud cover (reversion)                 n=  1 | ≥0.5R 100.0% | ≥1R 100.0% | peak med 100%
+
+[contexto, NO KPI] PnL si todo se cerrara mecánicamente en SL/2R: +10.09% | WR 52.46% | PF 1.952

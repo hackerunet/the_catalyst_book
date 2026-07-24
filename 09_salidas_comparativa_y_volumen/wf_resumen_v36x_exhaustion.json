@@ -1,0 +1,71 @@
+{
+ "modo": "continuo",
+ "pnl_pct": -9.86,
+ "pnl_usd": -49.31,
+ "trades": 6168,
+ "wr": 29.17,
+ "pf": 0.965,
+ "bh_pct": 146.8,
+ "max_drawdown_pct": 22.3,
+ "percentil_vs_null": null,
+ "null_mediana_pct": null,
+ "por_motivo_salida": {
+  "AGOTAMIENTO: 2 velas LATERAL": {
+   "trades": 6097,
+   "win_rate": 29.5,
+   "pnl": 57.32
+  },
+  "FIN DE VENTANA (administrativo)": {
+   "trades": 3,
+   "win_rate": 66.7,
+   "pnl": 0.12
+  },
+  "STOP DE PROTECCIÓN": {
+   "trades": 68,
+   "win_rate": 0.0,
+   "pnl": -106.76
+  }
+ },
+ "por_simbolo": {
+  "BNBUSDT": {
+   "trades": 1538,
+   "win_rate": 28.3,
+   "pnl": -43.93
+  },
+  "ETHUSDT": {
+   "trades": 1504,
+   "win_rate": 28.2,
+   "pnl": 19.42
+  },
+  "SOLUSDT": {
+   "trades": 1545,
+   "win_rate": 32.2,
+   "pnl": 30.29
+  },
+  "XRPUSDT": {
+   "trades": 1581,
+   "win_rate": 28.0,
+   "pnl": -55.09
+  }
+ },
+ "config": {
+  "symbols": [
+   "ETHUSDT",
+   "SOLUSDT",
+   "BNBUSDT",
+   "XRPUSDT"
+  ],
+  "interval": "15m",
+  "entry_mode": "patrones",
+  "exit_mode": "tendencia",
+  "trailing_stop_tendencia": false,
+  "trailing_arm_r": 2.0,
+  "trailing_distance_r": 1.0,
+  "fee": 0.0002,
+  "slippage": 0.0002,
+  "years": 4.0,
+  "end": "2026-06-11 00:00",
+  "mc": 0,
+  "seed": 42
+ }
+}
