@@ -19,6 +19,6 @@ python3 walkforward.py --continuo --interval 4h --entrada cruce --salida tendenc
 Corre el backtest honesto (walk-forward o `--continuo`) con null-vs-azar y OOB. Descarga sus propios datos o usa los caches `.pkl` de `stable_v25_prototype/`.
 
 ---
-*Contexto completo de esta estrategia: ver el libro "La Mesa de Dinero".
+*Contexto completo de esta estrategia: ver el libro "The Catalyst".
 Los datos históricos (caches `.pkl`) que usan varios scripts viven en
 `bot_alpha_portfolio/stable_v25_prototype/`.*

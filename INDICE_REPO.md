@@ -1,6 +1,6 @@
 # Índice del repositorio — mapa carpeta ↔ libro
 
-Este repositorio acompaña el libro **"La Mesa de Dinero"**. Cada carpeta corresponde a una
+Este repositorio acompaña el libro **"The Catalyst"**. Cada carpeta corresponde a una
 parte de la historia. La tabla de abajo mapea **cada carpeta del código → el capítulo del
 libro** donde se explica, en **orden de lectura**.
 

@@ -19,6 +19,6 @@ python3 ab_entrada_rapida.py
 Contiene: ab_entrada_rapida.py, diagnostico_mercado.py, mejora_v28.py, prueba_clases.py, validar_c4.py.
 
 ---
-*Contexto completo de esta estrategia: ver el libro "La Mesa de Dinero".
+*Contexto completo de esta estrategia: ver el libro "The Catalyst".
 Los datos históricos (caches `.pkl`) que usan varios scripts viven en
 `bot_alpha_portfolio/stable_v25_prototype/`.*

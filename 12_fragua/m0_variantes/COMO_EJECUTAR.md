@@ -19,6 +19,6 @@ python3 run_v54.py
 Script(s) de investigación: run_v54.py, run_v55.py. Cada uno reproduce un estudio del libro. Ver comentarios de cabecera.
 
 ---
-*Contexto completo de esta estrategia: ver el libro "La Mesa de Dinero".
+*Contexto completo de esta estrategia: ver el libro "The Catalyst".
 Los datos históricos (caches `.pkl`) que usan varios scripts viven en
 `bot_alpha_portfolio/stable_v25_prototype/`.*

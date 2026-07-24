@@ -19,6 +19,6 @@ python3 generar_graficos_libro.py
 Contiene: generar_graficos_libro.py, generar_graficos_masivos.py, investigacion_delta_neutral.py, investigacion_gbm.py, update_book_final.py, update_html_book.py, update_html_book_massive.py.
 
 ---
-*Contexto completo de esta estrategia: ver el libro "La Mesa de Dinero".
+*Contexto completo de esta estrategia: ver el libro "The Catalyst".
 Los datos históricos (caches `.pkl`) que usan varios scripts viven en
 `bot_alpha_portfolio/stable_v25_prototype/`.*

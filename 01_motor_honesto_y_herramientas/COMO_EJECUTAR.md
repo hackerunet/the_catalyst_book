@@ -29,6 +29,6 @@ python3 stable_v25_prototype.py
 Arranca el bot: bootstrap de velas, conexión WebSocket a Binance y polling de Telegram. Requiere `.env` con llaves de Binance y un token de Telegram (ver abajo).
 
 ---
-*Contexto completo de esta estrategia: ver el libro "La Mesa de Dinero".
+*Contexto completo de esta estrategia: ver el libro "The Catalyst".
 Los datos históricos (caches `.pkl`) que usan varios scripts viven en
 `bot_alpha_portfolio/stable_v25_prototype/`.*
